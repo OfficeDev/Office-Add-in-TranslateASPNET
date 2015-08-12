@@ -1,0 +1,93 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Component NavBar</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="NavBar.css">
+  <link rel="stylesheet" href="../../css/fabric.css">
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="Jquery.NavBar.js"></script>
+  <script type="text/javascript">
+
+    $(document).ready(function() {
+        if ($.fn.NavBar) {
+          $('.ms-NavBar').NavBar();
+        }
+    });
+
+    console.log($.fn.NavBar);
+  </script>
+  <!-- Component Demo Styles -->
+
+  <style type="text/css">
+
+  	h1 {
+  		width: 100%;
+  		margin-bottom: 10px;
+  		padding: 5px;
+  		height: auto;
+  		background-color: #0072BB;
+  		color: #ffffff;
+  		font-family: 'Segoe UI', Arial, Tahoma;
+  		font-weight: 100;
+  	}
+
+    /* Demo contextual menu CSS */
+    .ms-ContextualMenu.is-open  {
+      position: relative;
+      margin-bottom: 10px;
+    }
+    .ms-Dialog {
+      position: relative;
+      margin-bottom: 10px;
+    }
+    #componentWrapper {
+      width: 100%;
+      height: auto;
+      float: left;
+      position: relative;
+    }
+
+  </style>
+
+</head>
+
+<body>
+	<h1>NavBar</h1>
+	<div id="componentWrapper">
+    <div class="ms-NavBar">
+  <div class="ms-NavBar-openMenu js-openMenu">
+    <i class="ms-Icon ms-Icon--menu"></i>
+  </div>
+  <ul class="ms-NavBar-items">
+    <li class="ms-NavBar-item ms-NavBar-item--search ms-u-hiddenSm">
+      <div class="ms-TextField">
+        <input class="ms-TextField-field">
+      </div>
+    </li>
+    <li class="ms-NavBar-item">Home</li>
+    <li class="ms-NavBar-item ms-NavBar-item--hasMenu">
+      Channels
+      <i class="ms-NavBar-chevronDown ms-Icon ms-Icon--chevronDown"></i>
+      <ul class="ms-ContextualMenu">
+        <li class="ms-ContextualMenu-item"><a class="ms-ContextualMenu-link" href="#">Animals</a></li>
+        <li class="ms-ContextualMenu-item"><a class="ms-ContextualMenu-link" href="#">Education</a></li>
+        <li class="ms-ContextualMenu-item"><a class="ms-ContextualMenu-link" href="#">Music</a></li>
+        <li class="ms-ContextualMenu-item "><a class="ms-ContextualMenu-link" href="#">Sports</a></li>
+      </ul>
+    </li>
+    <li class="ms-NavBar-item">My Videos</li>
+    <li class="ms-NavBar-item is-disabled">More</li>
+    <li class="ms-NavBar-item ms-NavBar-item--right"><i class="ms-Icon ms-Icon--upload"></i> Upload</li>
+  </ul>
+</div>
+
+  </div>
+</body>
+</html>

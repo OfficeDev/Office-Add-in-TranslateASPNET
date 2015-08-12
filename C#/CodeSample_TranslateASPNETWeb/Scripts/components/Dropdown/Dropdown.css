@@ -1,0 +1,192 @@
+/**
+ * Fabric 0.10.3
+ * The front-end framework for building experiences for Office 365.
+ * Built on July 15, 2015
+ **/
+.ms-Dropdown {
+  color: #333333;
+  font-family: 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  margin-bottom: 10px;
+  position: relative;
+  outline: 0;
+}
+
+.ms-Dropdown:focus .ms-Dropdown-title {
+  border-color: #767676;
+}
+
+.ms-Dropdown:active .ms-Dropdown-title {
+  background-color: #0078d7;
+  border-color: #0078d7;
+  color: #ffffff;
+}
+
+.ms-Dropdown:active .ms-Dropdown-title:after {
+  color: #ffffff;
+}
+
+.ms-Dropdown:active .ms-Dropdown-caretDown {
+  color: #ffffff;
+}
+
+.ms-Dropdown-select {
+  display: none;
+}
+
+.ms-Dropdown-caretDown {
+  color: #666666;
+  font-size: 17px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.ms-Dropdown-title {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  background: #ffffff;
+  border: 1px solid #c8c8c8;
+  cursor: pointer;
+  display: block;
+  height: 30px;
+  padding: 4px 33px 5px 8px;
+  position: relative;
+}
+
+.ms-Dropdown-title:hover,
+.ms-Dropdown-title:focus {
+  color: #000000;
+}
+
+.ms-Dropdown-title:hover:after,
+.ms-Dropdown-title:focus:after {
+  color: #212121;
+}
+
+.ms-Dropdown-title:hover {
+  border-color: #767676;
+}
+
+.ms-Dropdown-title:focus {
+  border-color: #0078d7;
+}
+
+.ms-Dropdown-title:active {
+  background-color: #0078d7;
+  border-color: #0078d7;
+  color: #ffffff;
+}
+
+.ms-Dropdown-title:active:after {
+  color: #ffffff;
+}
+
+.ms-Dropdown-items {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  display: none;
+  list-style-type: none;
+  position: absolute;
+  width: 100%;
+  z-index: 400;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 50px;
+}
+
+.ms-Dropdown-item {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px 0 20px;
+  position: relative;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+.ms-Dropdown-item:first-child,
+.ms-Dropdown-item:last-child {
+  height: 39px;
+}
+
+.ms-Dropdown-item:hover {
+  background-color: #eaeaea;
+  color: #000000;
+  line-height: 40px;
+  outline: 1px solid #eaeaea;
+}
+
+.ms-Dropdown-item:active {
+  background-color: #eaeaea;
+  border-color: #0078d7;
+  color: #000000;
+}
+
+.ms-Dropdown-item.ms-Dropdown-item--selected {
+  background-color: #c7e0f4;
+  color: #000000;
+  line-height: 40px;
+}
+
+.ms-Dropdown-item.ms-Dropdown-item--selected:hover {
+  background-color: #c7e0f4;
+}
+
+.ms-Dropdown-item.is-disabled {
+  background: #ffffff;
+  color: #a6a6a6;
+  cursor: default;
+  line-height: 40px;
+}
+
+.ms-Dropdown.ms-Dropdown--open .ms-Dropdown-items {
+  display: block;
+  position: fixed;
+}
+
+.ms-Dropdown.is-disabled .ms-Dropdown-title {
+  background-color: #f4f4f4;
+  border-color: #f4f4f4;
+  color: #a6a6a6;
+  cursor: default;
+}
+
+.ms-Dropdown.is-disabled .ms-Dropdown-title:after {
+  color: #a6a6a6;
+}
+
+.ms-Dropdown.is-disabled .ms-Dropdown-caretDown {
+  color: #a6a6a6;
+}
+
+@media (min-width: 480px) {
+  .ms-Dropdown-items {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    overflow-y: scroll;
+  }
+
+  .ms-Dropdown.ms-Dropdown--open .ms-Dropdown-items {
+    position: absolute;
+  }
+}

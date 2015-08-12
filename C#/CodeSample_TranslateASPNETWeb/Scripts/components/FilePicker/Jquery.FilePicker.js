@@ -1,0 +1,79 @@
+/**
+ * File Picker Plugin
+ *
+ * Adds basic demonstration functionality to .ms-FilePicker components.
+ * 
+ * @param  {jQuery Object}  One or more .ms-FilePicker components
+ * @return {jQuery Object}  The same components (allows for chaining)
+ */
+(function ($) {
+  $.fn.FilePicker = function () {
+
+    /** Go through each file picker we've been given. */
+    return this.each(function () {
+
+      var $filePicker = $(this),
+        $appBar = $filePicker.siblings('.ms-AppBar'),
+        $panelContent = $filePicker.parents('.ms-Panel-content'),
+        view1 = new Object(),
+        view2 = new Object(),
+        view3 = new Object(),
+        view4 = new Object();
+
+      // Initialize view1 to the current view.
+      view1.appBar = $appBar.html();
+      view1.filePicker = $filePicker.html();
+
+      /**
+       * Second view
+       *
+       * OneDrive selected
+       */
+      view2.appBar = '<div class="ms-AppBar-left"> </div> <div class="ms-AppBar-center"> <a class="ms-AppBar-action ms-AppBar-action--circle js-view1"> <i class="ms-Icon ms-Icon--circle ms-Icon--arrowLeft"></i> </a> <a class="ms-AppBar-action ms-AppBar-action--circle js-closePanel"> <i class="ms-Icon ms-Icon--circle ms-Icon--check"></i> </a> <a class="ms-AppBar-action ms-AppBar-action--circle js-closePanel"> <i class="ms-Icon ms-Icon--circle ms-Icon--x"></i> </a> </div> <div class="ms-AppBar-right"> <a class="ms-AppBar-action"> <i class="ms-Icon ms-Icon--ellipsis"></i> </a> </div> ';
+      
+      view2.filePicker = '<ul class="ms-FilePicker-sources ms-List"> <li class="ms-FilePicker-source ms-List-item js-view1"> <div class="ms-FilePicker-sourceIcon"><i class="ms-Icon ms-Icon--clock"></i></div> <span class="ms-FilePicker-sourceName">Recent</span> </li> <li class="ms-FilePicker-source is-open ms-List-item js-view2"> <div class="ms-FilePicker-sourceIcon"><i class="ms-Icon ms-Icon--onedrive"></i></div> <span class="ms-FilePicker-sourceName">OneDrive @ Contoso</span> <ul class="ms-List"> <li class="ms-FilePicker-source is-active ms-List-item"> <span class="ms-FilePicker-sourceName">My files</span> </li> <li class="ms-FilePicker-source ms-List-item"> <span class="ms-FilePicker-sourceName">Recent</span> </li> <li class="ms-FilePicker-source ms-List-item"> <span class="ms-FilePicker-sourceName">Shared with me</span> </li> </ul> </li> <li class="ms-FilePicker-source ms-List-item"> <div class="ms-FilePicker-sourceIcon"><i class="ms-Icon ms-Icon--upload"></i></div> <span class="ms-FilePicker-sourceName">My device</span> </li> <li class="ms-FilePicker-source ms-List-item"> <div class="ms-FilePicker-sourceIcon"><i class="ms-Icon ms-Icon--dog"></i></div> <span class="ms-FilePicker-sourceName">Bright Dreams</span> </li> </ul> <div class="ms-FilePicker-files"> <div class="ms-Breadcrumb"> <span class="ms-Breadcrumb-currentLarge">My files</span> <a class="ms-Breadcrumb-parent">OneDrive @ Contoso</a> <span class="ms-Breadcrumb-current">My files</span> </div> <ul class="ms-Pivot"> <li class="ms-Pivot-link is-selected">My files</li> <li class="ms-Pivot-link">Recent</li> <li class="ms-Pivot-link">Shared with me</li> </ul> <div class="ms-FilePicker-itemsToggle ms-u-hiddenMdDown"> <span class="ms-FilePicker-itemsToggleButton js-view4"><i class="ms-Icon ms-Icon--listBullets"></i></span> <span class="ms-FilePicker-itemsToggleButton is-active js-view2"><i class="ms-Icon ms-Icon--tile"></i></span> </div> <ul class="ms-FilePicker-items ms-List ms-List--grid"> <li class="ms-FilePicker-item ms-List-item js-view3"> <div class="ms-FilePicker-itemIcon"><i class="ms-Icon ms-Icon--folder"></i></div> <span class="ms-FilePicker-itemPrimaryText">Working files</span> <span class="ms-FilePicker-itemSecondaryText">Last modified by Hayley Steplyk on June 25, 2014</span> </li> <li class="ms-FilePicker-item ms-List-item"> <div class="ms-FilePicker-itemIcon"><i class="ms-Icon ms-Icon--folder"></i></div> <span class="ms-FilePicker-itemPrimaryText">Archived</span> <span class="ms-FilePicker-itemSecondaryText">Last modified by Hayley Steplyk on June 25, 2014</span> </li> <li class="ms-FilePicker-item ms-List-item"> <div class="ms-FilePicker-itemIcon"><i class="ms-Icon ms-Icon--folder"></i></div> <span class="ms-FilePicker-itemPrimaryText">Reviewed</span> <span class="ms-FilePicker-itemSecondaryText">Last modified by Hayley Steplyk on June 25, 2014</span> </li> <li class="ms-FilePicker-item ms-List-item"> <div class="ms-FilePicker-itemIcon ms-FilePicker-itemIcon--ppt"></div> <span class="ms-FilePicker-itemPrimaryText">Perlin Rollout.pptx</span> <span class="ms-FilePicker-itemSecondaryText">Last modified by Hayley Steplyk on June 25, 2014</span> </li> <li class="ms-FilePicker-item ms-List-item"> <div class="ms-FilePicker-itemIcon ms-FilePicker-itemIcon--excel"></div> <span class="ms-FilePicker-itemPrimaryText">Matrix Proposal.xls</span> <span class="ms-FilePicker-itemSecondaryText">Last modified by Hayley Steplyk on June 25, 2014</span> </li> <li class="ms-FilePicker-item ms-List-item"> <div class="ms-FilePicker-itemIcon ms-FilePicker-itemIcon--word"></div> <span class="ms-FilePicker-itemPrimaryText">Sharing Dialog.docx</span> <span class="ms-FilePicker-itemSecondaryText">Last modified by Hayley Steplyk on June 25, 2014</span> </li> </ul> </div> ';
+
+      /**
+       * Third view
+       *
+       * Working Files folder selected
+       */
+      view3.appBar = ' <div class="ms-AppBar-left"> </div> <div class="ms-AppBar-center"> <a class="ms-AppBar-action ms-AppBar-action--circle js-view2"> <i class="ms-Icon ms-Icon--circle ms-Icon--arrowLeft"></i> </a> <a class="ms-AppBar-action ms-AppBar-action--circle js-closePanel"> <i class="ms-Icon ms-Icon--circle ms-Icon--check"></i> </a> <a class="ms-AppBar-action ms-AppBar-action--circle js-closePanel"> <i class="ms-Icon ms-Icon--circle ms-Icon--x"></i> </a> </div> <div class="ms-AppBar-right"> <a class="ms-AppBar-action"> <i class="ms-Icon ms-Icon--ellipsis"></i> </a> </div> ';
+      
+      view3.filePicker = ' <ul class="ms-FilePicker-sources ms-List"> <li class="ms-FilePicker-source ms-List-item js-view1"> <div class="ms-FilePicker-sourceIcon"><i class="ms-Icon ms-Icon--clock"></i></div> <span class="ms-FilePicker-sourceName">Recent</span> </li> <li class="ms-FilePicker-source is-open ms-List-item js-view2"> <div class="ms-FilePicker-sourceIcon"><i class="ms-Icon ms-Icon--onedrive"></i></div> <span class="ms-FilePicker-sourceName">OneDrive @ Contoso</span> <ul class="ms-List"> <li class="ms-FilePicker-source is-active ms-List-item"> <span class="ms-FilePicker-sourceName">My files</span> </li> <li class="ms-FilePicker-source ms-List-item"> <span class="ms-FilePicker-sourceName">Recent</span> </li> <li class="ms-FilePicker-source ms-List-item"> <span class="ms-FilePicker-sourceName">Shared with me</span> </li> </ul> </li> <li class="ms-FilePicker-source ms-List-item"> <div class="ms-FilePicker-sourceIcon"><i class="ms-Icon ms-Icon--upload"></i></div> <span class="ms-FilePicker-sourceName">My device</span> </li> <li class="ms-FilePicker-source ms-List-item"> <div class="ms-FilePicker-sourceIcon"><i class="ms-Icon ms-Icon--dog"></i></div> <span class="ms-FilePicker-sourceName">Bright Dreams</span> </li> </ul> <div class="ms-FilePicker-files"> <div class="ms-Breadcrumb"> <span class="ms-Breadcrumb-currentLarge">Working files</span> <a class="ms-Breadcrumb-parent js-view2">My files</a> <span class="ms-Breadcrumb-current">Working files</span> </div> <ul class="ms-FilePicker-items ms-List ms-List--grid"> <li class="ms-FilePicker-item ms-List-item"> <div class="ms-FilePicker-itemIcon ms-FilePicker-itemIcon--ppt"></div> <span class="ms-FilePicker-itemPrimaryText">Presentation (Draft).pptx</span> <span class="ms-FilePicker-itemSecondaryText">Last modified by Hayley Steplyk on June 25, 2014</span> </li> <li class="ms-FilePicker-item ms-List-item"> <div class="ms-FilePicker-itemIcon ms-FilePicker-itemIcon--excel"></div> <span class="ms-FilePicker-itemPrimaryText">Todo List.xls</span> <span class="ms-FilePicker-itemSecondaryText">Last modified by Hayley Steplyk on June 19, 2014</span> </li> <li class="ms-FilePicker-item ms-List-item"> <div class="ms-FilePicker-itemIcon ms-FilePicker-itemIcon--word"></div> <span class="ms-FilePicker-itemPrimaryText">Meeting Notes.docx</span> <span class="ms-FilePicker-itemSecondaryText">Last modified by Hayley Steplyk on June 18, 2014</span> </li> </ul> </div> ';
+
+      /**
+       * Fourth view.
+       *
+       * Same as second view (OneDrive selected) except toggled to a table view of items.
+       */
+      view4.appBar = ' <ul class="ms-FilePicker-sources ms-List"> <li class="ms-FilePicker-source ms-List-item js-view1"> <div class="ms-FilePicker-sourceIcon"><i class="ms-Icon ms-Icon--clock"></i></div> <span class="ms-FilePicker-sourceName">Recent</span> </li> <li class="ms-FilePicker-source is-open ms-List-item js-view2"> <div class="ms-FilePicker-sourceIcon"><i class="ms-Icon ms-Icon--onedrive"></i></div> <span class="ms-FilePicker-sourceName">OneDrive @ Contoso</span> <ul class="ms-List"> <li class="ms-FilePicker-source is-active ms-List-item"> <span class="ms-FilePicker-sourceName">My files</span> </li> <li class="ms-FilePicker-source ms-List-item"> <span class="ms-FilePicker-sourceName">Recent</span> </li> <li class="ms-FilePicker-source ms-List-item"> <span class="ms-FilePicker-sourceName">Shared with me</span> </li> </ul> </li> <li class="ms-FilePicker-source ms-List-item"> <div class="ms-FilePicker-sourceIcon"><i class="ms-Icon ms-Icon--upload"></i></div> <span class="ms-FilePicker-sourceName">My device</span> </li> <li class="ms-FilePicker-source ms-List-item"> <div class="ms-FilePicker-sourceIcon"><i class="ms-Icon ms-Icon--dog"></i></div> <span class="ms-FilePicker-sourceName">Bright Dreams</span> </li> </ul> <div class="ms-FilePicker-files"> <div class="ms-Breadcrumb"> <span class="ms-Breadcrumb-currentLarge">Working files</span> <a class="ms-Breadcrumb-parent js-view2">My files</a> <span class="ms-Breadcrumb-current">Working files</span> </div> <ul class="ms-FilePicker-items ms-List ms-List--grid"> <li class="ms-FilePicker-item ms-List-item"> <div class="ms-FilePicker-itemIcon ms-FilePicker-itemIcon--ppt"></div> <span class="ms-FilePicker-itemPrimaryText">Presentation (Draft).pptx</span> <span class="ms-FilePicker-itemSecondaryText">Last modified by Hayley Steplyk on June 25, 2014</span> </li> <li class="ms-FilePicker-item ms-List-item"> <div class="ms-FilePicker-itemIcon ms-FilePicker-itemIcon--excel"></div> <span class="ms-FilePicker-itemPrimaryText">Todo List.xls</span> <span class="ms-FilePicker-itemSecondaryText">Last modified by Hayley Steplyk on June 19, 2014</span> </li> <li class="ms-FilePicker-item ms-List-item"> <div class="ms-FilePicker-itemIcon ms-FilePicker-itemIcon--word"></div> <span class="ms-FilePicker-itemPrimaryText">Meeting Notes.docx</span> <span class="ms-FilePicker-itemSecondaryText">Last modified by Hayley Steplyk on June 18, 2014</span> </li> </ul> </div> ';
+      
+      view4.filePicker = ' <ul class="ms-FilePicker-sources ms-List"> <li class="ms-FilePicker-source ms-List-item js-view1"> <div class="ms-FilePicker-sourceIcon"><i class="ms-Icon ms-Icon--clock"></i></div> <span class="ms-FilePicker-sourceName">Recent</span> </li> <li class="ms-FilePicker-source is-open ms-List-item js-view2"> <div class="ms-FilePicker-sourceIcon"><i class="ms-Icon ms-Icon--onedrive"></i></div> <span class="ms-FilePicker-sourceName">OneDrive @ Contoso</span> <ul class="ms-List"> <li class="ms-FilePicker-source is-active ms-List-item"> <span class="ms-FilePicker-sourceName">My files</span> </li> <li class="ms-FilePicker-source ms-List-item"> <span class="ms-FilePicker-sourceName">Recent</span> </li> <li class="ms-FilePicker-source ms-List-item"> <span class="ms-FilePicker-sourceName">Shared with me</span> </li> </ul> </li> <li class="ms-FilePicker-source ms-List-item"> <div class="ms-FilePicker-sourceIcon"><i class="ms-Icon ms-Icon--upload"></i></div> <span class="ms-FilePicker-sourceName">My device</span> </li> <li class="ms-FilePicker-source ms-List-item"> <div class="ms-FilePicker-sourceIcon"><i class="ms-Icon ms-Icon--dog"></i></div> <span class="ms-FilePicker-sourceName">Bright Dreams</span> </li> </ul> <div class="ms-FilePicker-files"> <div class="ms-Breadcrumb"> <span class="ms-Breadcrumb-currentLarge">My files</span> <a class="ms-Breadcrumb-parent">OneDrive @ Contoso</a> <span class="ms-Breadcrumb-current">My files</span> </div> <ul class="ms-Pivot"> <li class="ms-Pivot-link is-active">My files</li> <li class="ms-Pivot-link">Recent</li> <li class="ms-Pivot-link">Shared with me</li> </ul> <div class="ms-FilePicker-itemsToggle ms-u-hiddenMdDown"> <span class="ms-FilePicker-itemsToggleButton is-active js-view4"><i class="ms-Icon ms-Icon--listBullets"></i></span> <span class="ms-FilePicker-itemsToggleButton js-view2"><i class="ms-Icon ms-Icon--tile"></i></span> </div> <div class="ms-FilePicker-items ms-FilePicker-items--hasTable"> <div class="ms-Table"> <div class="ms-Table-row"> <span class="ms-Table-rowCheck"></span> <span class="ms-Table-cell">Name</span> <span class="ms-Table-cell">Modified date</span> <span class="ms-Table-cell">Modified by</span> <span class="ms-Table-cell">Type</span> </div> <div class="ms-Table-row"> <span class="ms-Table-rowCheck"></span> <span class="ms-Table-cell">Working files</span> <span class="ms-Table-cell">06/25/2014 8:15a</span> <span class="ms-Table-cell">Hayley Steplyk</span> <span class="ms-Table-cell">Folder</span> </div> <div class="ms-Table-row"> <span class="ms-Table-rowCheck"></span> <span class="ms-Table-cell">Archived</span> <span class="ms-Table-cell">03/20/2014 12:20p</span> <span class="ms-Table-cell">Hayley Steplyk</span> <span class="ms-Table-cell">Folder</span> </div> <div class="ms-Table-row is-selected"> <span class="ms-Table-rowCheck"></span> <span class="ms-Table-cell">Reviewed</span> <span class="ms-Table-cell">08/12/2014 9:22a</span> <span class="ms-Table-cell">Hayley Steplyk</span> <span class="ms-Table-cell">Folder</span> </div> <div class="ms-Table-row"> <span class="ms-Table-rowCheck"></span> <span class="ms-Table-cell">Perlin Rollout.pptx</span> <span class="ms-Table-cell">07/11/2014 7:11p</span> <span class="ms-Table-cell">Hayley Steplyk</span> <span class="ms-Table-cell">PowerPoint presentation</span> </div> <div class="ms-Table-row"> <span class="ms-Table-rowCheck"></span> <span class="ms-Table-cell">Matrix Proposal.xls</span> <span class="ms-Table-cell">02/12/2014 6:22a</span> <span class="ms-Table-cell">Hayley Steplyk</span> <span class="ms-Table-cell">Excel spreadsheet</span> </div> <div class="ms-Table-row"> <span class="ms-Table-rowCheck"></span> <span class="ms-Table-cell">Sharing Dialog.docx</span> <span class="ms-Table-cell">08/12/2014 8:22p</span> <span class="ms-Table-cell">Hayley Steplyk</span> <span class="ms-Table-cell">Word document</span> </div> </div> </div> </div> ';      
+
+      /** Hooks to change views. */
+      $panelContent.on('click', '.js-view1', function() {
+        $appBar.html(view1.appBar);
+        $filePicker.html(view1.filePicker);
+        $filePicker.removeClass('is-showingFiles');
+      });
+      $panelContent.on('click', '.js-view2', function() {
+        $appBar.html(view2.appBar);
+        $filePicker.html(view2.filePicker);
+        $filePicker.addClass('is-showingFiles');
+      });
+      $panelContent.on('click', '.js-view3', function() {
+        $appBar.html(view3.appBar);
+        $filePicker.html(view3.filePicker);
+        $filePicker.addClass('is-showingFiles');
+      });
+      $panelContent.on('click', '.js-view4', function() {
+        $appBar.html(view4.appBar);
+        $filePicker.html(view4.filePicker);
+        $filePicker.addClass('is-showingFiles');
+      });                  
+
+    });
+
+  };
+})(jQuery);

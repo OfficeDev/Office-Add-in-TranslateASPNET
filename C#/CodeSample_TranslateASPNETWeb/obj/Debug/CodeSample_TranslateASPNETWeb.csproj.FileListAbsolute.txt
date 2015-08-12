@@ -1,0 +1,12 @@
+C:\Users\johnau\Surge\Translator\C#\CodeSample_TranslateASPNETWeb\bin\CodeSample_TranslateASPNETWeb.dll.config
+C:\Users\johnau\Surge\Translator\C#\CodeSample_TranslateASPNETWeb\bin\CodeSample_TranslateASPNETWeb.dll
+C:\Users\johnau\Surge\Translator\C#\CodeSample_TranslateASPNETWeb\bin\CodeSample_TranslateASPNETWeb.pdb
+C:\Users\johnau\Surge\Translator\C#\CodeSample_TranslateASPNETWeb\obj\Debug\CodeSample_TranslateASPNETWeb.csprojResolveAssemblyReference.cache
+C:\Users\johnau\Surge\Translator\C#\CodeSample_TranslateASPNETWeb\obj\Debug\CodeSample_TranslateASPNETWeb.dll
+C:\Users\johnau\Surge\Translator\C#\CodeSample_TranslateASPNETWeb\obj\Debug\CodeSample_TranslateASPNETWeb.pdb
+E:\surge\Excel-Add-in-TranslateASPNET\C#\CodeSample_TranslateASPNETWeb\bin\CodeSample_TranslateASPNETWeb.dll.config
+E:\surge\Excel-Add-in-TranslateASPNET\C#\CodeSample_TranslateASPNETWeb\bin\CodeSample_TranslateASPNETWeb.dll
+E:\surge\Excel-Add-in-TranslateASPNET\C#\CodeSample_TranslateASPNETWeb\bin\CodeSample_TranslateASPNETWeb.pdb
+E:\surge\Excel-Add-in-TranslateASPNET\C#\CodeSample_TranslateASPNETWeb\obj\Debug\CodeSample_TranslateASPNETWeb.csprojResolveAssemblyReference.cache
+E:\surge\Excel-Add-in-TranslateASPNET\C#\CodeSample_TranslateASPNETWeb\obj\Debug\CodeSample_TranslateASPNETWeb.dll
+E:\surge\Excel-Add-in-TranslateASPNET\C#\CodeSample_TranslateASPNETWeb\obj\Debug\CodeSample_TranslateASPNETWeb.pdb

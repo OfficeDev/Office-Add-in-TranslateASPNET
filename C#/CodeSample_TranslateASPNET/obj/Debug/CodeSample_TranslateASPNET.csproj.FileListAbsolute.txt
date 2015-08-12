@@ -1,0 +1,2 @@
+C:\Users\johnau\Surge\Translator\C#\CodeSample_TranslateASPNET\bin\Debug\CodeSample_TranslateASPNET.dll.config
+E:\surge\Excel-Add-in-TranslateASPNET\C#\CodeSample_TranslateASPNET\bin\Debug\CodeSample_TranslateASPNET.dll.config

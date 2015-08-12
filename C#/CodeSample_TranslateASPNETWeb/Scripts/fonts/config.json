@@ -1,0 +1,2374 @@
+{
+  "name": "",
+  "css_prefix_text": "ms-Icon--",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "38e30b82c16542f0b0493974927da671",
+      "css": "space",
+      "code": 32,
+      "src": "officeicons"
+    },
+    {
+      "uid": "008a5743640b7a6d7fd45c2ce71db175",
+      "css": "circleEmpty",
+      "code": 57344,
+      "src": "officeicons"
+    },
+    {
+      "uid": "71f4d69107eed0802eb1ba2a68532b40",
+      "css": "circleFill",
+      "code": 57345,
+      "src": "officeicons"
+    },
+    {
+      "uid": "79c5821bbfa100271a5e92386904c8c1",
+      "css": "placeholder",
+      "code": 57346,
+      "src": "officeicons"
+    },
+    {
+      "uid": "dfef296c561124df07dab5df29db66ff",
+      "css": "star",
+      "code": 57347,
+      "src": "officeicons"
+    },
+    {
+      "uid": "4eabcfa767e08ed0ff01151545e73e3c",
+      "css": "plus",
+      "code": 57348,
+      "src": "officeicons"
+    },
+    {
+      "uid": "9b0811fbc66fffccc28929033717c5d7",
+      "css": "minus",
+      "code": 57349,
+      "src": "officeicons"
+    },
+    {
+      "uid": "188b03b0cba20f556f9b184dd7976a08",
+      "css": "question",
+      "code": 57350,
+      "src": "officeicons"
+    },
+    {
+      "uid": "a43ee6b4ee2c0b7d09fc83265a0f5287",
+      "css": "exclamation",
+      "code": 57351,
+      "src": "officeicons"
+    },
+    {
+      "uid": "b2f23000171ee86cf46614619c336d54",
+      "css": "person",
+      "code": 57352,
+      "src": "officeicons"
+    },
+    {
+      "uid": "8f8e1bd7e53b40979f7f858aacfa63e6",
+      "css": "mail",
+      "code": 57353,
+      "src": "officeicons"
+    },
+    {
+      "uid": "def7e79b2abb51c143dba038a344973e",
+      "css": "infoCircle",
+      "code": 57354,
+      "src": "officeicons"
+    },
+    {
+      "uid": "5c0949e454b023bcbf192054102fca8c",
+      "css": "alert",
+      "code": 57355,
+      "src": "officeicons"
+    },
+    {
+      "uid": "92485cd8f11f96510fcc06ebd45726b9",
+      "css": "xCircle",
+      "code": 57356,
+      "src": "officeicons"
+    },
+    {
+      "uid": "9313635756718168f7210036b1414166",
+      "css": "mailOpen",
+      "code": 57357,
+      "src": "officeicons"
+    },
+    {
+      "uid": "412d6a456d8d01cf977a2dd51edda2c7",
+      "css": "people",
+      "code": 57358,
+      "src": "officeicons"
+    },
+    {
+      "uid": "d0850e75f3112149b3701518328e60f4",
+      "css": "bell",
+      "code": 57360,
+      "src": "officeicons"
+    },
+    {
+      "uid": "5b073ff063530445689fd474307931c9",
+      "css": "calendar",
+      "code": 57361,
+      "src": "officeicons"
+    },
+    {
+      "uid": "43e3c520d41bc64a984697cf6afd295c",
+      "css": "scheduling",
+      "code": 57362,
+      "src": "officeicons"
+    },
+    {
+      "uid": "800a859fe80dda5439ffed1471e293ae",
+      "css": "event",
+      "code": 57363,
+      "src": "officeicons"
+    },
+    {
+      "uid": "c31c409b2a35a77c9b8b005f81a7e716",
+      "css": "folder",
+      "code": 57364,
+      "src": "officeicons"
+    },
+    {
+      "uid": "5cb434b66b3fa1942af8116d2851b438",
+      "css": "documents",
+      "code": 57365,
+      "src": "officeicons"
+    },
+    {
+      "uid": "c62bfcd7975b745fc5988bd544413751",
+      "css": "onedrive",
+      "code": 57366,
+      "src": "officeicons"
+    },
+    {
+      "uid": "4ca412450be144e8687acd9c8032365d",
+      "css": "chat",
+      "code": 57367,
+      "src": "officeicons"
+    },
+    {
+      "uid": "09ddc6f733cde142458ad898fef757d2",
+      "css": "sites",
+      "code": 57368,
+      "src": "officeicons"
+    },
+    {
+      "uid": "378c37f915d91b52abf2f7eccb8d2fc3",
+      "css": "listBullets",
+      "code": 57369,
+      "src": "officeicons"
+    },
+    {
+      "uid": "8c3e87e6fdce832c2f1bcad496b9f9ef",
+      "css": "calendarWeek",
+      "code": 57370,
+      "src": "officeicons"
+    },
+    {
+      "uid": "27755431461ffe402cfc2d98beb9f175",
+      "css": "calendarWorkWeek",
+      "code": 57371,
+      "src": "officeicons"
+    },
+    {
+      "uid": "c6339a00e2e6ab86e95e078f446d2eb1",
+      "css": "calendarDay",
+      "code": 57372,
+      "src": "officeicons"
+    },
+    {
+      "uid": "b73d2552a79bff9a069ec5b997513ffe",
+      "css": "folderMove",
+      "code": 57373,
+      "src": "officeicons"
+    },
+    {
+      "uid": "3f1d7ca552fe31f3c61da98937f306d9",
+      "css": "panel",
+      "code": 57374,
+      "src": "officeicons"
+    },
+    {
+      "uid": "8060ff70da33a3a27c964688c47ad8c3",
+      "css": "popout",
+      "code": 57375,
+      "src": "officeicons"
+    },
+    {
+      "uid": "92d8c2a7a52c25fc17af63f9ce919437",
+      "css": "menu",
+      "code": 57376,
+      "src": "officeicons"
+    },
+    {
+      "uid": "7293fe4c88aa5744d4b66a25190919d5",
+      "css": "home",
+      "code": 57377,
+      "src": "officeicons"
+    },
+    {
+      "uid": "08b95161661f4cca4127ebed849f7010",
+      "css": "favorites",
+      "code": 57378,
+      "src": "officeicons"
+    },
+    {
+      "uid": "a6c31cd68998b72e9835692b542e8891",
+      "css": "phone",
+      "code": 57379,
+      "src": "officeicons"
+    },
+    {
+      "uid": "b9ed460fdc389495c8d0479d6970410f",
+      "css": "mailSend",
+      "code": 57380,
+      "src": "officeicons"
+    },
+    {
+      "uid": "dcb361c70585ae031f45f47710e3cacb",
+      "css": "save",
+      "code": 57381,
+      "src": "officeicons"
+    },
+    {
+      "uid": "b626c898e9e543f7a93bd60d93aeda7b",
+      "css": "trash",
+      "code": 57382,
+      "src": "officeicons"
+    },
+    {
+      "uid": "9a7a2be76bc347a89d376bbaed9c1efa",
+      "css": "pencil",
+      "code": 57383,
+      "src": "officeicons"
+    },
+    {
+      "uid": "56b40003e49040cd826dfc803f72f54c",
+      "css": "flag",
+      "code": 57384,
+      "src": "officeicons"
+    },
+    {
+      "uid": "ff516577a39d47408aa79de815182205",
+      "css": "reply",
+      "code": 57385,
+      "src": "officeicons"
+    },
+    {
+      "uid": "758736a1158c4df98b981f04417bff1e",
+      "css": "miniatures",
+      "code": 57386,
+      "src": "officeicons"
+    },
+    {
+      "uid": "51c08bd8c245401787bdd8f979e55b38",
+      "css": "voicemail",
+      "code": 57387,
+      "src": "officeicons"
+    },
+    {
+      "uid": "b56e02d90b084239b4c7a1ba87010119",
+      "css": "play",
+      "code": 57388,
+      "src": "officeicons"
+    },
+    {
+      "uid": "b1a647423aed489b824889cb69c8fdee",
+      "css": "pause",
+      "code": 57389,
+      "src": "officeicons"
+    },
+    {
+      "uid": "61d1cbdbddf842a083b3fb6e159c6815",
+      "css": "onlineAdd",
+      "code": 57390,
+      "src": "officeicons"
+    },
+    {
+      "uid": "309cdcfc9d7744528f3c34d2ce0ef202",
+      "css": "onlineJoin",
+      "code": 57391,
+      "src": "officeicons"
+    },
+    {
+      "uid": "2d0af374a3614bc184c0a49a22eec77d",
+      "css": "replyAll",
+      "code": 57392,
+      "src": "officeicons"
+    },
+    {
+      "uid": "62ca7fad69964b218372d15989d150cb",
+      "css": "attachment",
+      "code": 57393,
+      "src": "officeicons"
+    },
+    {
+      "uid": "0dd68409f58b4ff3ae4a8eeb8ef22bf4",
+      "css": "drm",
+      "code": 57394,
+      "src": "officeicons"
+    },
+    {
+      "uid": "6b9e0dce24c441d294b00cd42cdd07f3",
+      "css": "pinDown",
+      "code": 57395,
+      "src": "officeicons"
+    },
+    {
+      "uid": "5f2c2c6f592047479a95fa255db1dcba",
+      "css": "refresh",
+      "code": 57396,
+      "src": "officeicons"
+    },
+    {
+      "uid": "0312d800910a4a27930fcdd9b69f458a",
+      "css": "gear",
+      "code": 57397,
+      "src": "officeicons"
+    },
+    {
+      "uid": "3ad914ae4a39432c8405b6f37e0f52bb",
+      "css": "smiley",
+      "code": 57398,
+      "src": "officeicons"
+    },
+    {
+      "uid": "cdd72d3138044bb887bbb2122f1de908",
+      "css": "info",
+      "code": 57399,
+      "src": "officeicons"
+    },
+    {
+      "uid": "2559905b2683468f8594f549b86380ca",
+      "css": "lock",
+      "code": 57400,
+      "src": "officeicons"
+    },
+    {
+      "uid": "930e273b2b504b22b6e0d3f3f153ae14",
+      "css": "search",
+      "code": 57401,
+      "src": "officeicons"
+    },
+    {
+      "uid": "8466fc6f062f431f8f494a2ff186df1a",
+      "css": "questionReverse",
+      "code": 57402,
+      "src": "officeicons"
+    },
+    {
+      "uid": "cf3cae203beb4c549407646c52ac5681",
+      "css": "notRecurring",
+      "code": 57403,
+      "src": "officeicons"
+    },
+    {
+      "uid": "3a5caa06885b406287daee224ea3fb56",
+      "css": "tasks",
+      "code": 57408,
+      "src": "officeicons"
+    },
+    {
+      "uid": "7d6aaaf50f154450aac4158a239f6b90",
+      "css": "check",
+      "code": 57409,
+      "src": "officeicons"
+    },
+    {
+      "uid": "39ad05f96d624bcab5d928b04c41ae70",
+      "css": "x",
+      "code": 57410,
+      "src": "officeicons"
+    },
+    {
+      "uid": "5925531c1a684676bbac2518be15ec36",
+      "css": "thumbDown",
+      "code": 57411,
+      "src": "officeicons"
+    },
+    {
+      "uid": "7b550e806135440bab2f0bc10f924ae2",
+      "css": "thumbUp",
+      "code": 57412,
+      "src": "officeicons"
+    },
+    {
+      "uid": "5859fcfc01394686951ec19d20f747a6",
+      "css": "ellipsis",
+      "code": 57413,
+      "src": "officeicons"
+    },
+    {
+      "uid": "d29e66939dd548ba8f10055db22fb1f1",
+      "css": "dot",
+      "code": 57414,
+      "src": "officeicons"
+    },
+    {
+      "uid": "8b95ddf6563e4347adb1d3b19d729e0c",
+      "css": "arrowUp",
+      "code": 57415,
+      "src": "officeicons"
+    },
+    {
+      "uid": "e9e03d8ae4b74176b794fcfd8baef771",
+      "css": "arrowDown",
+      "code": 57416,
+      "src": "officeicons"
+    },
+    {
+      "uid": "248379845d11487fb14960ef70856750",
+      "css": "arrowLeft",
+      "code": 57417,
+      "src": "officeicons"
+    },
+    {
+      "uid": "d8e238c01b2c47d0bb7c90e7f815a846",
+      "css": "arrowRight",
+      "code": 57418,
+      "src": "officeicons"
+    },
+    {
+      "uid": "4d253fc7ea5f42b3b19d95741a958b38",
+      "css": "download",
+      "code": 57419,
+      "src": "officeicons"
+    },
+    {
+      "uid": "2b9c83625ead467c8cbed2f604d6faa5",
+      "css": "directions",
+      "code": 57420,
+      "src": "officeicons"
+    },
+    {
+      "uid": "a91c267c091d4e82af0e6af2526b3a02",
+      "css": "microphone",
+      "code": 57423,
+      "src": "officeicons"
+    },
+    {
+      "uid": "41035c1a5a6c4e73afb75c3dc6658d4a",
+      "css": "caretUp",
+      "code": 57425,
+      "src": "officeicons"
+    },
+    {
+      "uid": "d88f0cdf3719446ca8e7ac6857ef6521",
+      "css": "caretDown",
+      "code": 57426,
+      "src": "officeicons"
+    },
+    {
+      "uid": "b38bc2ee298d4b47aaf8259c3371f791",
+      "css": "caretLeft",
+      "code": 57427,
+      "src": "officeicons"
+    },
+    {
+      "uid": "9a3c22d82c4a4d9ea875a259b25b31e6",
+      "css": "caretRight",
+      "code": 57428,
+      "src": "officeicons"
+    },
+    {
+      "uid": "d3510460f6c94e428bb5c05f2496c666",
+      "css": "officeThreshold",
+      "code": 57429,
+      "src": "officeicons"
+    },
+    {
+      "uid": "613212b0ab0a4bbebae1e14b10cbb848",
+      "css": "office365",
+      "code": 57430,
+      "src": "officeicons"
+    },
+    {
+      "uid": "927ec5fe9b2d4f32a0412378928d8579",
+      "css": "office365Preview",
+      "code": 57431,
+      "src": "officeicons"
+    },
+    {
+      "uid": "593fff090bbc4b4785d0063e1d2d880f",
+      "css": "caretUpLeft",
+      "code": 57434,
+      "src": "officeicons"
+    },
+    {
+      "uid": "ea782e44ebe04162a25cb3e847f90bd4",
+      "css": "caretUpRight",
+      "code": 57435,
+      "src": "officeicons"
+    },
+    {
+      "uid": "9642b2c665d6404a95848db672843844",
+      "css": "caretDownRight",
+      "code": 57436,
+      "src": "officeicons"
+    },
+    {
+      "uid": "d77482fb22bf4f38b5e947b4968d219b",
+      "css": "caretDownLeft",
+      "code": 57437,
+      "src": "officeicons"
+    },
+    {
+      "uid": "5f5bc49be4da42f39b9bc17de7c8b68e",
+      "css": "apps",
+      "code": 57440,
+      "src": "officeicons"
+    },
+    {
+      "uid": "57075b6ceff346fdbc18ab0c4cee6401",
+      "css": "officeStore",
+      "code": 57441,
+      "src": "officeicons"
+    },
+    {
+      "uid": "f76b1d7e459448078c9956696c5f63d1",
+      "css": "outlook",
+      "code": 57442,
+      "src": "officeicons"
+    },
+    {
+      "uid": "119b489254b845d39e9bf8d0a0eb0344",
+      "css": "project",
+      "code": 57443,
+      "src": "officeicons"
+    },
+    {
+      "uid": "3c89bfed8f24465283c3db06e0275a5f",
+      "css": "yammer",
+      "code": 57444,
+      "src": "officeicons"
+    },
+    {
+      "uid": "0f597d2c1a36476ea0e4f316290f7bb8",
+      "css": "dynamicsCrm",
+      "code": 57445,
+      "src": "officeicons"
+    },
+    {
+      "uid": "88f38aab75f14f2db67b51479934cde2",
+      "css": "lync",
+      "code": 57446,
+      "src": "officeicons"
+    },
+    {
+      "uid": "782ae61ff5d3490a8821d98b11e61f74",
+      "css": "note",
+      "code": 57450,
+      "src": "officeicons"
+    },
+    {
+      "uid": "1fa7cd7651604ae489218b080adf77a7",
+      "css": "noteReply",
+      "code": 57451,
+      "src": "officeicons"
+    },
+    {
+      "uid": "b0105743091c48cbbdd2b1ef36c23636",
+      "css": "noteForward",
+      "code": 57452,
+      "src": "officeicons"
+    },
+    {
+      "uid": "cee6a2367419486ca0c3b87b26b442cb",
+      "css": "key",
+      "code": 57455,
+      "src": "officeicons"
+    },
+    {
+      "uid": "3fe343deebd548c3a3ea55eb523369c4",
+      "css": "tile",
+      "code": 57456,
+      "src": "officeicons"
+    },
+    {
+      "uid": "e01b54964efe47238d66ff7613a6a080",
+      "css": "taskRecurring",
+      "code": 57457,
+      "src": "officeicons"
+    },
+    {
+      "uid": "daa69423d2f64706b00202272291a6fc",
+      "css": "sharepoint",
+      "code": 57458,
+      "src": "officeicons"
+    },
+    {
+      "uid": "2376568f1ba7450c94913a8a3bf53540",
+      "css": "starEmpty",
+      "code": 57459,
+      "src": "officeicons"
+    },
+    {
+      "uid": "8f5158723d9047108a2d79c70d6cc32c",
+      "css": "upload",
+      "code": 57462,
+      "src": "officeicons"
+    },
+    {
+      "uid": "305c8f8392794be98f313a8dd62640a1",
+      "css": "wrench",
+      "code": 57463,
+      "src": "officeicons"
+    },
+    {
+      "uid": "d6af1d69fc6b4aafa6a2f626506cb527",
+      "css": "share",
+      "code": 57464,
+      "src": "officeicons"
+    },
+    {
+      "uid": "e7efe1b729e14f0f971dc8379ff59702",
+      "css": "documentReply",
+      "code": 57465,
+      "src": "officeicons"
+    },
+    {
+      "uid": "aa0f555a6451443fa42a0d2d56fa724c",
+      "css": "documentForward",
+      "code": 57466,
+      "src": "officeicons"
+    },
+    {
+      "uid": "58343926d7ef45dea152241854aa900f",
+      "css": "partner",
+      "code": 57472,
+      "src": "officeicons"
+    },
+    {
+      "uid": "be4512fdb3894acbb91a48fdc7fa7e47",
+      "css": "admin",
+      "code": 57473,
+      "src": "officeicons"
+    },
+    {
+      "uid": "79941fd7f4584f3fa445c668b3f57156",
+      "css": "microsoft",
+      "code": 57475,
+      "src": "officeicons"
+    },
+    {
+      "uid": "8d9928af322a42b1b1458675d8d5ae1a",
+      "css": "reactivate",
+      "code": 57476,
+      "src": "officeicons"
+    },
+    {
+      "uid": "5d18981cfa564e6ab9d2401739d6d9b8",
+      "css": "sort",
+      "code": 57477,
+      "src": "officeicons"
+    },
+    {
+      "uid": "f33b916f5d174eee8f115fcb7e202fe4",
+      "css": "personAdd",
+      "code": 57478,
+      "src": "officeicons"
+    },
+    {
+      "uid": "125e3a08037e4b418409a69a259ed496",
+      "css": "chevronUp",
+      "code": 57479,
+      "src": "officeicons"
+    },
+    {
+      "uid": "55ba06e782c14497ba03dcb2fc02168d",
+      "css": "chevronDown",
+      "code": 57480,
+      "src": "officeicons"
+    },
+    {
+      "uid": "ab6af68365a244e8964edab21ce41472",
+      "css": "chevronLeft",
+      "code": 57481,
+      "src": "officeicons"
+    },
+    {
+      "uid": "372bb5a04fcf4028b5971db2f03cfdda",
+      "css": "chevronRight",
+      "code": 57482,
+      "src": "officeicons"
+    },
+    {
+      "uid": "20075f1a74fc43ff8f0f7fad4efe6bde",
+      "css": "powerBi",
+      "code": 57483,
+      "src": "officeicons"
+    },
+    {
+      "uid": "b97b8301492d47b2bc9e6feaba3d4584",
+      "css": "peopleAdd",
+      "code": 57484,
+      "src": "officeicons"
+    },
+    {
+      "uid": "b1518166608b43ce9d071067457e1844",
+      "css": "newsfeed",
+      "code": 57485,
+      "src": "officeicons"
+    },
+    {
+      "uid": "1e926159539c4073b1ba9b7d5451e6ba",
+      "css": "notebook",
+      "code": 57486,
+      "src": "officeicons"
+    },
+    {
+      "uid": "f74bc9b1c4834e6eac5ac574953daefb",
+      "css": "link",
+      "code": 57487,
+      "src": "officeicons"
+    },
+    {
+      "uid": "07bad5aff8294cd6966e827966c984d4",
+      "css": "chevronsUp",
+      "code": 57488,
+      "src": "officeicons"
+    },
+    {
+      "uid": "0ffd401039754264a8b9c1ccfef9b226",
+      "css": "chevronsDown",
+      "code": 57489,
+      "src": "officeicons"
+    },
+    {
+      "uid": "1833c11054fc4f3692829a253bff2748",
+      "css": "chevronsLeft",
+      "code": 57490,
+      "src": "officeicons"
+    },
+    {
+      "uid": "8bbf0c6a91b348048c12764e6308a65a",
+      "css": "chevronsRight",
+      "code": 57491,
+      "src": "officeicons"
+    },
+    {
+      "uid": "e1701f7542bf441b98e18c7197a24426",
+      "css": "clutter",
+      "code": 57498,
+      "src": "officeicons"
+    },
+    {
+      "uid": "83dbf51422054ffd856d6b291bcfe9e1",
+      "css": "subscribe",
+      "code": 57500,
+      "src": "officeicons"
+    },
+    {
+      "uid": "a89a4f8b7f81408d9fb89de61813292b",
+      "css": "unsubscribe",
+      "code": 57501,
+      "src": "officeicons"
+    },
+    {
+      "uid": "0f5651733b8a4b088c77956d54b798d9",
+      "css": "personRemove",
+      "code": 57502,
+      "src": "officeicons"
+    },
+    {
+      "uid": "e8be51d8d32947a08baf24246dc2c2a2",
+      "css": "receiptForward",
+      "code": 57504,
+      "src": "officeicons"
+    },
+    {
+      "uid": "a891702022ce42ebb8abced98fe788cf",
+      "css": "receiptReply",
+      "code": 57505,
+      "src": "officeicons"
+    },
+    {
+      "uid": "7decd433915f49c0a6927bcd657baa66",
+      "css": "receiptCheck",
+      "code": 57506,
+      "src": "officeicons"
+    },
+    {
+      "uid": "7dc2d36749b94c868c821dcdd7692f25",
+      "css": "peopleRemove",
+      "code": 57507,
+      "src": "officeicons"
+    },
+    {
+      "uid": "eefd8f0111b547edab452fec00175bac",
+      "css": "merge",
+      "code": 57508,
+      "src": "officeicons"
+    },
+    {
+      "uid": "aa11b165b571456abe0420cf93e9811f",
+      "css": "split",
+      "code": 57509,
+      "src": "officeicons"
+    },
+    {
+      "uid": "a450bae911ba4b3491e88084329cedb5",
+      "css": "eventCancel",
+      "code": 57510,
+      "src": "officeicons"
+    },
+    {
+      "uid": "3113e222d35f492b9d5381f1b6c166cc",
+      "css": "eventShare",
+      "code": 57511,
+      "src": "officeicons"
+    },
+    {
+      "uid": "38ec963336e142ceb554d653ca398ba8",
+      "css": "today",
+      "code": 57513,
+      "src": "officeicons"
+    },
+    {
+      "uid": "52426ab653cd440199621f2420c4607b",
+      "css": "oofReply",
+      "code": 57514,
+      "src": "officeicons"
+    },
+    {
+      "uid": "513d326b91154451bb5b5938c3e16e49",
+      "css": "voicemailReply",
+      "code": 57516,
+      "src": "officeicons"
+    },
+    {
+      "uid": "182726d3073f4201a6d8c7d47404c2a4",
+      "css": "voicemailForward",
+      "code": 57517,
+      "src": "officeicons"
+    },
+    {
+      "uid": "e3e4a89e40f14e7cb13bbbdb84efad60",
+      "css": "ribbon",
+      "code": 57519,
+      "src": "officeicons"
+    },
+    {
+      "uid": "89bb74e71e364949a62cce9174e9fa5f",
+      "css": "contact",
+      "code": 57520,
+      "src": "officeicons"
+    },
+    {
+      "uid": "5a70f2e205214ea5826e6a4a3cf7cc70",
+      "css": "eye",
+      "code": 57521,
+      "src": "officeicons"
+    },
+    {
+      "uid": "a3464ff18348468b99c7eb1a0a36abca",
+      "css": "glasses",
+      "code": 57522,
+      "src": "officeicons"
+    },
+    {
+      "uid": "73645ef676cd48d1a6f58418c2116ac6",
+      "css": "gallatin",
+      "code": 57523,
+      "src": "officeicons"
+    },
+    {
+      "uid": "97200126a5b1403e82fc0780df55f5ef",
+      "css": "access",
+      "code": 57524,
+      "src": "officeicons"
+    },
+    {
+      "uid": "83177f8cef7049df8db2767a50d18be1",
+      "css": "excel",
+      "code": 57525,
+      "src": "officeicons"
+    },
+    {
+      "uid": "91074e9061254e7bafaa7b04ae28e9cf",
+      "css": "onenote",
+      "code": 57527,
+      "src": "officeicons"
+    },
+    {
+      "uid": "130249f5c57644028e4dc95f016db6a5",
+      "css": "powerpoint",
+      "code": 57528,
+      "src": "officeicons"
+    },
+    {
+      "uid": "02a5ceae0f704fb781d0ebe871c149f6",
+      "css": "word",
+      "code": 57529,
+      "src": "officeicons"
+    },
+    {
+      "uid": "4f2750571f654e27b208f870b0efc05e",
+      "css": "print",
+      "code": 57600,
+      "src": "officeicons"
+    },
+    {
+      "uid": "21e0f6c21d124ad4a5933ef46c8f236d",
+      "css": "room",
+      "code": 57601,
+      "src": "officeicons"
+    },
+    {
+      "uid": "78dd44132ec642c6b1aa71663cdb08d4",
+      "css": "post",
+      "code": 57602,
+      "src": "officeicons"
+    },
+    {
+      "uid": "4dc045f99e12472a8612a047139ee4c",
+      "css": "toggle",
+      "code": 57603,
+      "src": "officeicons"
+    },
+    {
+      "uid": "553974b0e59e475b8d66f8ff5ba90a5d",
+      "css": "touch",
+      "code": 57604,
+      "src": "officeicons"
+    },
+    {
+      "uid": "f987cfa7da58467291c33d03248b2ff1",
+      "css": "clock",
+      "code": 57605,
+      "src": "officeicons"
+    },
+    {
+      "uid": "9d82888fff3244aebb1361f5697df1da",
+      "css": "fax",
+      "code": 57606,
+      "src": "officeicons"
+    },
+    {
+      "uid": "f5dfd4c1844744afa76bbe8282158966",
+      "css": "lightning",
+      "code": 57616,
+      "src": "officeicons"
+    },
+    {
+      "uid": "f4fbd899a00b476fb2c560efceee141",
+      "css": "dialpad",
+      "code": 57617,
+      "src": "officeicons"
+    },
+    {
+      "uid": "e3dd8d681ac04bb3a59c06d8ea2ac7af",
+      "css": "phoneTransfer",
+      "code": 57618,
+      "src": "officeicons"
+    },
+    {
+      "uid": "d0ffc019d4074b288cb7c5b04bf2344a",
+      "css": "phoneAdd",
+      "code": 57619,
+      "src": "officeicons"
+    },
+    {
+      "uid": "fc804cd696bc48cf8f381150b4cc78d2",
+      "css": "late",
+      "code": 57620,
+      "src": "officeicons"
+    },
+    {
+      "uid": "9ae9754bde994becbd263509b5d5055c",
+      "css": "chatAdd",
+      "code": 57621,
+      "src": "officeicons"
+    },
+    {
+      "uid": "78f071494a76457aaa110a2abb0a9b5b",
+      "css": "conflict",
+      "code": 57622,
+      "src": "officeicons"
+    },
+    {
+      "uid": "ee483e2674964ea7a936169241ff4e49",
+      "css": "navigate",
+      "code": 57623,
+      "src": "officeicons"
+    },
+    {
+      "uid": "fef336f35900484d98ce1114b78cd82c",
+      "css": "delve",
+      "code": 57624,
+      "src": "officeicons"
+    },
+    {
+      "uid": "cb935b93508942ffb28981ef5c4aa843",
+      "css": "camera",
+      "code": 57625,
+      "src": "officeicons"
+    },
+    {
+      "uid": "eb6a6030693d481eb521456a73c6b6a8",
+      "css": "filter",
+      "code": 57626,
+      "src": "officeicons"
+    },
+    {
+      "uid": "c46ae2395a6b4890bfd36387da0a44bb",
+      "css": "fullscreen",
+      "code": 57627,
+      "src": "officeicons"
+    },
+    {
+      "uid": "88bc0e350e0490db0cae7061ea3d85b",
+      "css": "new",
+      "code": 57628,
+      "src": "officeicons"
+    },
+    {
+      "uid": "b2a3119ecb9f44038cec15c52f87bbac",
+      "css": "mailEmpty",
+      "code": 57629,
+      "src": "officeicons"
+    },
+    {
+      "uid": "27acb72665954e51918f31a8dff27e80",
+      "css": "editBox",
+      "code": 57630,
+      "src": "officeicons"
+    },
+    {
+      "uid": "cdb2b842196d43b389688fa95889a053",
+      "css": "waffle",
+      "code": 57631,
+      "src": "officeicons"
+    },
+    {
+      "uid": "7cc5eb97156468785842e7e881b383b",
+      "css": "work",
+      "code": 57632,
+      "src": "officeicons"
+    },
+    {
+      "uid": "fc970aea4a214e83b5234a114c63ba20",
+      "css": "eventRecurring",
+      "code": 57633,
+      "src": "officeicons"
+    },
+    {
+      "uid": "249945168e214fa3841814d67d1484f4",
+      "css": "cart",
+      "code": 57634,
+      "src": "officeicons"
+    },
+    {
+      "uid": "655abda9c9e24715be5dac9f99cffd4",
+      "css": "socialListening",
+      "code": 57635,
+      "src": "officeicons"
+    },
+    {
+      "uid": "835963945b024170badb95ef14cad03c",
+      "css": "mapMarker",
+      "code": 57636,
+      "src": "officeicons"
+    },
+    {
+      "uid": "ed2a704b7d27417494bbe6679967951d",
+      "css": "org",
+      "code": 57637,
+      "src": "officeicons"
+    },
+    {
+      "uid": "16ec404473ff4f8ba244db9571780dd2",
+      "css": "adminA",
+      "code": 57648,
+      "src": "officeicons"
+    },
+    {
+      "uid": "c51b2da8d79e4eb397fd5f756ee4d690",
+      "css": "adminC",
+      "code": 57649,
+      "src": "officeicons"
+    },
+    {
+      "uid": "769d5c2ed7a440da9dedd47c1b9b3648",
+      "css": "adminD",
+      "code": 57650,
+      "src": "officeicons"
+    },
+    {
+      "uid": "c626c5d61c7140948bd7061d096fc980",
+      "css": "adminE",
+      "code": 57651,
+      "src": "officeicons"
+    },
+    {
+      "uid": "c51d98de76d24ba39b1b31f00054f7da",
+      "css": "adminL",
+      "code": 57652,
+      "src": "officeicons"
+    },
+    {
+      "uid": "1f6a3ba483c240f7bc1b101fc081886f",
+      "css": "adminM",
+      "code": 57653,
+      "src": "officeicons"
+    },
+    {
+      "uid": "e14cef0546364bcb9bbed6f38be8b873",
+      "css": "adminO",
+      "code": 57654,
+      "src": "officeicons"
+    },
+    {
+      "uid": "7c4d497f4e3e4a06a17b38750474e793",
+      "css": "adminP",
+      "code": 57655,
+      "src": "officeicons"
+    },
+    {
+      "uid": "71f48ff3dda747309f6e5a20bec1c1b3",
+      "css": "adminS",
+      "code": 57656,
+      "src": "officeicons"
+    },
+    {
+      "uid": "cbc712c3a0694f3e99ee357ed2aa2b1a",
+      "css": "adminY",
+      "code": 57657,
+      "src": "officeicons"
+    },
+    {
+      "uid": "b0234d942a6e40bda72545f4f0bfb8d1",
+      "css": "replyAlt",
+      "code": 57680,
+      "src": "officeicons"
+    },
+    {
+      "uid": "98bded12c0864a8ebe4f3e92e9fc9281",
+      "css": "replyAllAlt",
+      "code": 57682,
+      "src": "officeicons"
+    },
+    {
+      "uid": "a818dfb0950646ceb58839bdf7b2e1c4",
+      "css": "eventInfo",
+      "code": 57684,
+      "src": "officeicons"
+    },
+    {
+      "uid": "fbff2a3652c74ad89c5dec3d08aeb37b",
+      "css": "group",
+      "code": 57685,
+      "src": "officeicons"
+    },
+    {
+      "uid": "59939cea36154ad4aa5a2658456f42c5",
+      "css": "office",
+      "code": 57696,
+      "src": "officeicons"
+    },
+    {
+      "uid": "ccc77158b1c040b6b377f6e40094b828",
+      "css": "money",
+      "code": 57697,
+      "src": "officeicons"
+    },
+    {
+      "uid": "532012e83ef944468db3fd7fbdbb2721",
+      "css": "graph",
+      "code": 57698,
+      "src": "officeicons"
+    },
+    {
+      "uid": "07f98bb24f4e4eacb6fbbe5f935feee8",
+      "css": "noteEdit",
+      "code": 57699,
+      "src": "officeicons"
+    },
+    {
+      "uid": "3574338685b048db9bd6d1d1657c6548",
+      "css": "dashboard",
+      "code": 57700,
+      "src": "officeicons"
+    },
+    {
+      "uid": "5580051eb8aa43a0be2d2be2f40ae3cc",
+      "css": "mailEdit",
+      "code": 57701,
+      "src": "officeicons"
+    },
+    {
+      "uid": "068c33a70ea646d79f0623303be232ad",
+      "css": "pinLeft",
+      "code": 57703,
+      "src": "officeicons"
+    },
+    {
+      "uid": "787152c397ae4e6c88e135ca341ed226",
+      "css": "onedriveAdd",
+      "code": 57704,
+      "src": "officeicons"
+    },
+    {
+      "uid": "a55fbca55a0e4f2a984f2434b886d4ad",
+      "css": "heart",
+      "code": 57706,
+      "src": "officeicons"
+    },
+    {
+      "uid": "8c3ab0061ace4513a6ae402cb55791a0",
+      "css": "heartEmpty",
+      "code": 57707,
+      "src": "officeicons"
+    },
+    {
+      "uid": "67591efc863244c69cc9a055a49d2c4a",
+      "css": "picture",
+      "code": 57708,
+      "src": "officeicons"
+    },
+    {
+      "uid": "77b0037fdf0b457582eebd8140dd0813",
+      "css": "cake",
+      "code": 57709,
+      "src": "officeicons"
+    },
+    {
+      "uid": "6274094fb58c4676a30637483339baa9",
+      "css": "books",
+      "code": 57710,
+      "src": "officeicons"
+    },
+    {
+      "uid": "561f3ab7f937490daf489ee49dfc84db",
+      "css": "chart",
+      "code": 57711,
+      "src": "officeicons"
+    },
+    {
+      "uid": "149f2f50b98f4f298a75fc6b4570ca48",
+      "css": "video",
+      "code": 57712,
+      "src": "officeicons"
+    },
+    {
+      "uid": "8e03233621540fbabf6278c9020c2d0",
+      "css": "soccer",
+      "code": 57713,
+      "src": "officeicons"
+    },
+    {
+      "uid": "146082b2588c412ca7e53cb31a55e405",
+      "css": "meal",
+      "code": 57714,
+      "src": "officeicons"
+    },
+    {
+      "uid": "2dee44bfa81f46d2b2919732357e8f32",
+      "css": "balloon",
+      "code": 57715,
+      "src": "officeicons"
+    },
+    {
+      "uid": "9d32e1b5d024109931689946362ea3b",
+      "css": "cat",
+      "code": 57716,
+      "src": "officeicons"
+    },
+    {
+      "uid": "22c2292ed2ed439db4f5101486b08898",
+      "css": "dog",
+      "code": 57717,
+      "src": "officeicons"
+    },
+    {
+      "uid": "45e25d41925f4a558bdb88e4b2274b87",
+      "css": "bag",
+      "code": 57718,
+      "src": "officeicons"
+    },
+    {
+      "uid": "856748a15e474fc0bb4b3237203b3d3e",
+      "css": "music",
+      "code": 57719,
+      "src": "officeicons"
+    },
+    {
+      "uid": "03a408a0a8564f32a5b0a6a285b831e7",
+      "css": "stopwatch",
+      "code": 57720,
+      "src": "officeicons"
+    },
+    {
+      "uid": "9f0fe86028dd4915aedee3cf0feb5a9e",
+      "css": "coffee",
+      "code": 57721,
+      "src": "officeicons"
+    },
+    {
+      "uid": "64ce5916cc2c4a9693befbba22e5b624",
+      "css": "briefcase",
+      "code": 57722,
+      "src": "officeicons"
+    },
+    {
+      "uid": "76914494086e49a0b8e83b553991a0a1",
+      "css": "pill",
+      "code": 57723,
+      "src": "officeicons"
+    },
+    {
+      "uid": "46026800544b42c2a3dafc0480b5907e",
+      "css": "trophy",
+      "code": 57724,
+      "src": "officeicons"
+    },
+    {
+      "uid": "077c4c0d707643eb0944d0c3bcc3be1",
+      "css": "firstAid",
+      "code": 57725,
+      "src": "officeicons"
+    },
+    {
+      "uid": "d16289bce6204cdd8628c214bf0eae9",
+      "css": "plane",
+      "code": 57726,
+      "src": "officeicons"
+    },
+    {
+      "uid": "10339370862542a28caf428b10745861",
+      "css": "page",
+      "code": 57727,
+      "src": "officeicons"
+    },
+    {
+      "uid": "bfedf7da625b4e58a2a847892ea14fbd",
+      "css": "car",
+      "code": 57728,
+      "src": "officeicons"
+    },
+    {
+      "uid": "40e4be116657465c96edadf79bd09bac",
+      "css": "dogAlt",
+      "code": 57729,
+      "src": "officeicons"
+    },
+    {
+      "uid": "92291780f8f94c8f8325a926b270b33b",
+      "css": "document",
+      "code": 57730,
+      "src": "officeicons"
+    },
+    {
+      "uid": "bc0e7b4b7cc480d897be2217b7a74a5",
+      "css": "metadata",
+      "code": 57731,
+      "src": "officeicons"
+    },
+    {
+      "uid": "6b04506acdda42daafe4ddaea1c2284b",
+      "css": "pointItem",
+      "code": 57732,
+      "src": "officeicons"
+    },
+    {
+      "uid": "c450b6fd068847f9a853a6a1f9933b6f",
+      "css": "text",
+      "code": 57733,
+      "src": "officeicons"
+    },
+    {
+      "uid": "7851fa1d1dd449e8571c3b247070d13",
+      "css": "fieldText",
+      "code": 57734,
+      "src": "officeicons"
+    },
+    {
+      "uid": "30742cb8e53a45dfadff17ec7e70a052",
+      "css": "fieldNumber",
+      "code": 57735,
+      "src": "officeicons"
+    },
+    {
+      "uid": "fd8680fd96754affba7e4368547200b2",
+      "css": "dropdown",
+      "code": 57736,
+      "src": "officeicons"
+    },
+    {
+      "uid": "7a0f068f36014cc2af1614f18723d447",
+      "css": "radioButton",
+      "code": 57737,
+      "src": "officeicons"
+    },
+    {
+      "uid": "ff023c2ce85847d191550b352d11c8b1",
+      "css": "checkbox",
+      "code": 57738,
+      "src": "officeicons"
+    },
+    {
+      "uid": "e90ee9fdc0a24d038e95ede129e93dc2",
+      "css": "story",
+      "code": 57739,
+      "src": "officeicons"
+    },
+    {
+      "uid": "391b75f6811246cf9f79baca2834072f",
+      "css": "bold",
+      "code": 57740,
+      "src": "officeicons"
+    },
+    {
+      "uid": "aa42648cb7f24a39ab89a5f5ce68be60",
+      "css": "italic",
+      "code": 57741,
+      "src": "officeicons"
+    },
+    {
+      "uid": "8775f5498c424c59a9999f684f09b579",
+      "css": "underline",
+      "code": 57742,
+      "src": "officeicons"
+    },
+    {
+      "uid": "fa4e25a3964c4032839e42adb651fca3",
+      "css": "quote",
+      "code": 57743,
+      "src": "officeicons"
+    },
+    {
+      "uid": "81711d96d25b47d2a9cef3d8210b81e",
+      "css": "styleRemove",
+      "code": 57744,
+      "src": "officeicons"
+    },
+    {
+      "uid": "c6ab3ceab81a4cbdaa7c259c03a0f1ce",
+      "css": "pictureAdd",
+      "code": 57745,
+      "src": "officeicons"
+    },
+    {
+      "uid": "89c7b4f637f343daaf30e6e27ccc2371",
+      "css": "pictureRemove",
+      "code": 57746,
+      "src": "officeicons"
+    },
+    {
+      "uid": "70da1e7b2c9b4fa5bbae3e9479b2a8d",
+      "css": "desktop",
+      "code": 57747,
+      "src": "officeicons"
+    },
+    {
+      "uid": "53a1350d9efe4695bf328d204b3260aa",
+      "css": "tablet",
+      "code": 57748,
+      "src": "officeicons"
+    },
+    {
+      "uid": "69b29706047349449ec75ccfe43b4675",
+      "css": "mobile",
+      "code": 57749,
+      "src": "officeicons"
+    },
+    {
+      "uid": "c3fe02f4db44e6c8c12ad95bd175394",
+      "css": "table",
+      "code": 57750,
+      "src": "officeicons"
+    },
+    {
+      "uid": "316d41f183c6463c818d0eb9f43467c2",
+      "css": "hide",
+      "code": 57751,
+      "src": "officeicons"
+    },
+    {
+      "uid": "a7b349229de14ffbbde91d47678dff33",
+      "css": "shield",
+      "code": 57752,
+      "src": "officeicons"
+    },
+    {
+      "uid": "cab6d0fa99a14a629845cc40fd249d10",
+      "css": "skype",
+      "code": 57753,
+      "src": "officeicons"
+    },
+    {
+      "uid": "8981afb16db440cd86118a8fd34669a0",
+      "css": "header",
+      "code": 57754,
+      "src": "officeicons"
+    },
+    {
+      "uid": "84fd4cfdc129482ca3d3509a297319b9",
+      "css": "paint",
+      "code": 57755,
+      "src": "officeicons"
+    },
+    {
+      "uid": "171c780c5e824cd4aa4f5e9e745bc995",
+      "css": "support",
+      "code": 57756,
+      "src": "officeicons"
+    },
+    {
+      "uid": "e1302de749ad45d3b3c1fcc1a57a6bf4",
+      "css": "settings",
+      "code": 57757,
+      "src": "officeicons"
+    },
+    {
+      "uid": "ae995311cb9c49f5990f8fe470f12a7e",
+      "css": "creditCard",
+      "code": 57758,
+      "src": "officeicons"
+    },
+    {
+      "uid": "43e4437b38a149e7b922f1833708f9f0",
+      "css": "reload",
+      "code": 57759,
+      "src": "officeicons"
+    },
+    {
+      "uid": "243ca9feda744b7b8e116ba1d907f8d8",
+      "css": "peopleSecurity",
+      "code": 57856,
+      "src": "officeicons"
+    },
+    {
+      "uid": "aa42b86280064d3b846069bacac0a844",
+      "css": "visio",
+      "code": 57857,
+      "src": "officeicons"
+    },
+    {
+      "uid": "16d8bebcc2494ce1ac3e56260f0da26c",
+      "css": "officeVideo",
+      "code": 57858,
+      "src": "officeicons"
+    },
+    {
+      "uid": "6ab09393f29e4b33b7246230a2f0fc93",
+      "css": "fieldTextBox",
+      "code": 57859,
+      "src": "officeicons"
+    },
+    {
+      "uid": "4251eb1321bb41bfb57b9a92a4204a1a",
+      "css": "multiChoice",
+      "code": 57860,
+      "src": "officeicons"
+    },
+    {
+      "uid": "8d0e4c880a1842be9c04ed49f6e799a3",
+      "css": "fieldMail",
+      "code": 57861,
+      "src": "officeicons"
+    },
+    {
+      "uid": "a93a0615d2d6431abbd13c8543f35764",
+      "css": "contactForm",
+      "code": 57862,
+      "src": "officeicons"
+    },
+    {
+      "uid": "e2f0a7766a264e63bca61bdc14927c38",
+      "css": "circleHalfFilled",
+      "code": 57863,
+      "src": "officeicons"
+    },
+    {
+      "uid": "d6b10412b4ba4815900c5785e8268e5f",
+      "css": "documentPDF",
+      "code": 57864,
+      "src": "officeicons"
+    },
+    {
+      "uid": "b5bada0278314c5ab8f9e5ff4c902bdd",
+      "css": "bookmark",
+      "code": 57865,
+      "src": "officeicons"
+    },
+    {
+      "uid": "d14372b23796454eb4902e289d147dc9",
+      "css": "parature",
+      "code": 57866,
+      "src": "officeicons"
+    },
+    {
+      "uid": "9c99453427ca41e29b9ecb56ea32f0e8",
+      "css": "circleUnfilled",
+      "code": 57867,
+      "src": "officeicons"
+    },
+    {
+      "uid": "92aceeb47de84683bf9f510a67096ac0",
+      "css": "circleFilled",
+      "code": 57868,
+      "src": "officeicons"
+    },
+    {
+      "uid": "64aeb75531c34d65bb1dc7d07cc1454c",
+      "css": "aad",
+      "code": 57869,
+      "src": "officeicons"
+    },
+    {
+      "uid": "b912aa09dffd475e81e252cf2e16d8f3",
+      "css": "textBox",
+      "code": 57870,
+      "src": "officeicons"
+    },
+    {
+      "uid": "f047d3ab3fdc4f32a7565f774fa519c5",
+      "css": "drop",
+      "code": 57871,
+      "src": "officeicons"
+    },
+    {
+      "uid": "aeadca89564c49388ca4fb84c7dc9b48",
+      "css": "sun",
+      "code": 57872,
+      "src": "officeicons"
+    },
+    {
+      "uid": "0de69dcc079e49d69e422d464ed915e2",
+      "css": "lifesaver",
+      "code": 57873,
+      "src": "officeicons"
+    },
+    {
+      "uid": "f60003065edd48288847ef8c3c3baf92",
+      "css": "lifesaverLock",
+      "code": 57874,
+      "src": "officeicons"
+    },
+    {
+      "uid": "67ca7787a7244337b1478d93677c59ad",
+      "css": "mailUnread",
+      "code": 57875,
+      "src": "officeicons"
+    },
+    {
+      "uid": "bb481fe6fe1e4508a20eda170be4d1b2",
+      "css": "mailRead",
+      "code": 57876,
+      "src": "officeicons"
+    },
+    {
+      "uid": "7ec36b0efa214af38c6d858f22c37b15",
+      "css": "inboxCheck",
+      "code": 57877,
+      "src": "officeicons"
+    },
+    {
+      "uid": "31982ac34bd349dabf98bd14cf7d0093",
+      "css": "folderSearch",
+      "code": 57878,
+      "src": "officeicons"
+    },
+    {
+      "uid": "9a42db4d61d14699b91b6aa6321bf37a",
+      "css": "collapse",
+      "code": 57879,
+      "src": "officeicons"
+    },
+    {
+      "uid": "239e53c7319345249a6313bdb69a3be1",
+      "css": "expand",
+      "code": 57880,
+      "src": "officeicons"
+    },
+    {
+      "uid": "23b63241c8fc44ffab5fbb7dc159b001",
+      "css": "ascending",
+      "code": 57881,
+      "src": "officeicons"
+    },
+    {
+      "uid": "b7c9e40696f04ce98f74d184e3b6c110",
+      "css": "descending",
+      "code": 57882,
+      "src": "officeicons"
+    },
+    {
+      "uid": "17f15f50e0b6474ba7ec3476eeb2bddf",
+      "css": "filterClear",
+      "code": 57883,
+      "src": "officeicons"
+    },
+    {
+      "uid": "010271815cb743a7a20b35aafdeb67c5",
+      "css": "checkboxEmpty",
+      "code": 57884,
+      "src": "officeicons"
+    },
+    {
+      "uid": "92f3aed2a7cf404bbcfe384a7777126b",
+      "css": "checkboxMixed",
+      "code": 57885,
+      "src": "officeicons"
+    },
+    {
+      "uid": "5541ded1bfa34790b0abff64711d881d",
+      "css": "boards",
+      "code": 57886,
+      "src": "officeicons"
+    },
+    {
+      "uid": "912a0e7697a945fcafc98cc706d3ba37",
+      "css": "checkboxCheck",
+      "code": 57887,
+      "src": "officeicons"
+    },
+    {
+      "uid": "40a36b0e940749a6a99ceb2029003c46",
+      "css": "frowny",
+      "code": 57888,
+      "src": "officeicons"
+    },
+    {
+      "uid": "f96a3ef47845414c97cf9f3edc0fb31e",
+      "css": "lightBulb",
+      "code": 57889,
+      "src": "officeicons"
+    },
+    {
+      "uid": "cda95bd53f7f4d8e990d7c40b5b9fb94",
+      "css": "globe",
+      "code": 57890,
+      "src": "officeicons"
+    },
+    {
+      "uid": "448940a4759e4a3bb5279bb07c1123b3",
+      "css": "deviceWipe",
+      "code": 57891,
+      "src": "officeicons"
+    },
+    {
+      "uid": "ef1fb6fa404b46eabf2f088c6970ab5f",
+      "css": "exchange",
+      "code": 57892,
+      "src": "officeicons"
+    },
+    {
+      "uid": "48fb2eeddd654c74b34c2d407b5b9f71",
+      "css": "bing",
+      "code": 57893,
+      "src": "officeicons"
+    },
+    {
+      "uid": "cb094ac7619b4f0a8d0a83638ca815bd",
+      "css": "listCheck",
+      "code": 57894,
+      "src": "officeicons"
+    },
+    {
+      "uid": "e5aea79efa26445b830a8d56e7af673b",
+      "css": "listGroup",
+      "code": 57895,
+      "src": "officeicons"
+    },
+    {
+      "uid": "06ad93956e4349adab90fd8bc49a1e0d",
+      "css": "timeline",
+      "code": 57896,
+      "src": "officeicons"
+    },
+    {
+      "uid": "0cf570e0d0cd4da5a7be4deb7383d627",
+      "css": "fontIncrease",
+      "code": 57897,
+      "src": "officeicons"
+    },
+    {
+      "uid": "752975bb07f54a4d9e44668803f16e9a",
+      "css": "fontDecrease",
+      "code": 57898,
+      "src": "officeicons"
+    },
+    {
+      "uid": "9081678f08794c38a3b2a8d4ce5230bd",
+      "css": "fontColor",
+      "code": 57899,
+      "src": "officeicons"
+    },
+    {
+      "uid": "ec5b791501df4004addd9147149a95c9",
+      "css": "mailCheck",
+      "code": 57900,
+      "src": "officeicons"
+    },
+    {
+      "uid": "4e475ac1b4504abcb5778135f05f2f1a",
+      "css": "mailDown",
+      "code": 57901,
+      "src": "officeicons"
+    },
+    {
+      "uid": "0037c0b7b80747f9b0e00e9673e1aa7e",
+      "css": "listCheckbox",
+      "code": 57902,
+      "src": "officeicons"
+    },
+    {
+      "uid": "01e543520055424bbacb7ddca73914d2",
+      "css": "sunAdd",
+      "code": 57903,
+      "src": "officeicons"
+    },
+    {
+      "uid": "8d7c3a5ed31c46e8bf916f12717b70af",
+      "css": "sunQuestion",
+      "code": 57904,
+      "src": "officeicons"
+    },
+    {
+      "uid": "48666e9b8afc4c09a5df961c635a470b",
+      "css": "chevronThinUp",
+      "code": 57905,
+      "src": "officeicons"
+    },
+    {
+      "uid": "e3e9ed0e67a543819545e97f8df0d2cc",
+      "css": "chevronThinDown",
+      "code": 57906,
+      "src": "officeicons"
+    },
+    {
+      "uid": "1c90e7ca777843fcab9b94eb4860f44e",
+      "css": "chevronThinLeft",
+      "code": 57907,
+      "src": "officeicons"
+    },
+    {
+      "uid": "39711b4660ab4cdb94c719ad68deab3a",
+      "css": "chevronThinRight",
+      "code": 57908,
+      "src": "officeicons"
+    },
+    {
+      "uid": "89aff4aa325549088cd086f902c0a189",
+      "css": "chevronThickUp",
+      "code": 57909,
+      "src": "officeicons"
+    },
+    {
+      "uid": "d240a0d45a47430ea193b513d9671dcb",
+      "css": "chevronThickDown",
+      "code": 57910,
+      "src": "officeicons"
+    },
+    {
+      "uid": "9a16299928c8485098c32054d0164ee0",
+      "css": "chevronThickLeft",
+      "code": 57911,
+      "src": "officeicons"
+    },
+    {
+      "uid": "7897f5aa18254bf5abbf9afcde20bb75",
+      "css": "chevronThickRight",
+      "code": 57912,
+      "src": "officeicons"
+    },
+    {
+      "uid": "804b0233e52449c8bfb5064132df09ff",
+      "css": "linkRemove",
+      "code": 57913,
+      "src": "officeicons"
+    },
+    {
+      "uid": "f9e086cc6a604f17860888458d97d3ea",
+      "css": "alchemy",
+      "code": 57914,
+      "src": "officeicons"
+    },
+    {
+      "uid": "ef375b1640374f1ab015c8c6c3186cbd",
+      "css": "alertOutline",
+      "code": 57915,
+      "src": "officeicons"
+    },
+    {
+      "uid": "fad3f1c3acb74156a55e99dbbef261ba",
+      "css": "documentLandscape",
+      "code": 57916,
+      "src": "officeicons"
+    },
+    {
+      "uid": "f64c5f1fba4f4a549ed4e94974eb078d",
+      "css": "documentAdd",
+      "code": 57917,
+      "src": "officeicons"
+    },
+    {
+      "uid": "5865fd6e69cf404cb90791c91bd4098f",
+      "css": "toggleMiddle",
+      "code": 57918,
+      "src": "officeicons"
+    },
+    {
+      "uid": "a50f2efbf6fd42e090fe9de0f711c83a",
+      "css": "embed",
+      "code": 57919,
+      "src": "officeicons"
+    },
+    {
+      "uid": "b0f69dbdc92d4670b87431154ef339cc",
+      "css": "listNumbered",
+      "code": 57920,
+      "src": "officeicons"
+    },
+    {
+      "uid": "3374b1c07fd6440da94449ba39c2bfd6",
+      "css": "msn",
+      "code": 57921,
+      "src": "officeicons"
+    },
+    {
+      "uid": "116627f7c60f4083a485c0f4f3002c5b",
+      "css": "peopleCheck",
+      "code": 57922,
+      "src": "officeicons"
+    },
+    {
+      "uid": "4acf9474759c4de5a831e5fd8807c311",
+      "css": "caretUpOutline",
+      "code": 57923,
+      "src": "officeicons"
+    },
+    {
+      "uid": "858df514ece14646baa463edeaf87653",
+      "css": "caretDownOutline",
+      "code": 57924,
+      "src": "officeicons"
+    },
+    {
+      "uid": "b5dd5efe173a421d9c14a0efbf633b31",
+      "css": "caretLeftOutline",
+      "code": 57925,
+      "src": "officeicons"
+    },
+    {
+      "uid": "610e8c76b5e34812a00d586618d33fb6",
+      "css": "caretRightOutline",
+      "code": 57926,
+      "src": "officeicons"
+    },
+    {
+      "uid": "cb6d61d661cf4772b7d1a11a8b69f36a",
+      "css": "sway",
+      "code": 57927,
+      "src": "officeicons"
+    },
+    {
+      "uid": "6684b72572fc437fa2d6bf6e241df8fa",
+      "css": "mailSync",
+      "code": 57928,
+      "src": "officeicons"
+    },
+    {
+      "uid": "a458e061a6184916ad6da16a04c10466",
+      "css": "mailError",
+      "code": 57929,
+      "src": "officeicons"
+    },
+    {
+      "uid": "78d41e7f50b84b488a4d6a039b45f513",
+      "css": "mailPause",
+      "code": 57930,
+      "src": "officeicons"
+    },
+    {
+      "uid": "6d6862f1161141d097bd40dea407aef3",
+      "css": "peopleSync",
+      "code": 57931,
+      "src": "officeicons"
+    },
+    {
+      "uid": "91cb590b574b4a1cb5e01940128356ff",
+      "css": "peopleError",
+      "code": 57932,
+      "src": "officeicons"
+    },
+    {
+      "uid": "a5d5b8cfa7ab424ea85e0057a7bd06d9",
+      "css": "peoplePause",
+      "code": 57933,
+      "src": "officeicons"
+    },
+    {
+      "uid": "e9f6d02fe14e4676a6efec7438a0afff",
+      "css": "circleBall",
+      "code": 57934,
+      "src": "officeicons"
+    },
+    {
+      "uid": "e2ed0a7977e84012be734cb4249122c4",
+      "css": "circleBalloons",
+      "code": 57935,
+      "src": "officeicons"
+    },
+    {
+      "uid": "aac738c29e7a48b395c5f380d87e6afb",
+      "css": "circleCar",
+      "code": 57936,
+      "src": "officeicons"
+    },
+    {
+      "uid": "681ce33e463848968ce284bbee91912f",
+      "css": "circleCat",
+      "code": 57937,
+      "src": "officeicons"
+    },
+    {
+      "uid": "edbd0459cdcf4fdeb83858d795cc10e5",
+      "css": "circleCoffee",
+      "code": 57938,
+      "src": "officeicons"
+    },
+    {
+      "uid": "aae78e0ae73e47a991036cda1943c342",
+      "css": "circleDog",
+      "code": 57939,
+      "src": "officeicons"
+    },
+    {
+      "uid": "91071ba5c64540bd8832a7f40697485e",
+      "css": "circleLightning",
+      "code": 57940,
+      "src": "officeicons"
+    },
+    {
+      "uid": "5163ed623ea04773803c358c73524320",
+      "css": "circlePill",
+      "code": 57941,
+      "src": "officeicons"
+    },
+    {
+      "uid": "9de7527920d9470c9a05ec488cf229dc",
+      "css": "circlePlane",
+      "code": 57942,
+      "src": "officeicons"
+    },
+    {
+      "uid": "2471c1885a3b49e8af000ce31bf1865e",
+      "css": "circlePoodle",
+      "code": 57943,
+      "src": "officeicons"
+    },
+    {
+      "uid": "ea24adbba1ba421483e2f28e2e06132b",
+      "css": "skypeForBusiness",
+      "code": 57944,
+      "src": "officeicons"
+    },
+    {
+      "uid": "5967947f419e439fa7a135ae29ccaf85",
+      "css": "checkPeople",
+      "code": 57945,
+      "src": "officeicons"
+    },
+    {
+      "uid": "26b0584903cd47e2adea5f7835b1568b",
+      "css": "documentSearch",
+      "code": 57946,
+      "src": "officeicons"
+    },
+    {
+      "uid": "875dc521d58a4c028f99d9e6ec8a14ec",
+      "css": "dynamicsMarketing",
+      "code": 57947,
+      "src": "officeicons"
+    },
+    {
+      "uid": "4a692386990e4915ad2080c1572839bc",
+      "css": "sortLines",
+      "code": 57948,
+      "src": "officeicons"
+    },
+    {
+      "uid": "273b67ff0d0f4646b0d1ccb98c8c6a2c",
+      "css": "calendarPublic",
+      "code": 57949,
+      "src": "officeicons"
+    },
+    {
+      "uid": "c053ae17bba248449bb90953a988a25b",
+      "css": "contactPublic",
+      "code": 57950,
+      "src": "officeicons"
+    },
+    {
+      "uid": "41bb8ea49aae47f09753f6cacf2f66f5",
+      "css": "classNotebook",
+      "code": 57951,
+      "src": "officeicons"
+    },
+    {
+      "uid": "ea17b509bc144fec8fcfc6e51514eed4",
+      "css": "triangleUp",
+      "code": 57952,
+      "src": "officeicons"
+    },
+    {
+      "uid": "be06f6fdc4ba4225a19649d4d4d11638",
+      "css": "triangleRight",
+      "code": 57953,
+      "src": "officeicons"
+    },
+    {
+      "uid": "460aa8c4551a486c8f39bd7faf7173d9",
+      "css": "triangleDown",
+      "code": 57954,
+      "src": "officeicons"
+    },
+    {
+      "uid": "1915c41b7fbe49e59b830dbf34bd4987",
+      "css": "triangleLeft",
+      "code": 57955,
+      "src": "officeicons"
+    },
+    {
+      "uid": "62b82c21d65943d4a60e149cd54d0a48",
+      "css": "triangleEmptyUp",
+      "code": 57956,
+      "src": "officeicons"
+    },
+    {
+      "uid": "887b05ce2e2842cd964a98c57c347b85",
+      "css": "triangleEmptyRight",
+      "code": 57957,
+      "src": "officeicons"
+    },
+    {
+      "uid": "7c9f258f58594cbaa9092093203aa626",
+      "css": "triangleEmptyDown",
+      "code": 57958,
+      "src": "officeicons"
+    },
+    {
+      "uid": "82c92f3ee05f4f11aae3ccc89f6bb63a",
+      "css": "triangleEmptyLeft",
+      "code": 57959,
+      "src": "officeicons"
+    },
+    {
+      "uid": "b360894692e54b20a298141e6227d1fd",
+      "css": "filePDF",
+      "code": 57960,
+      "src": "officeicons"
+    },
+    {
+      "uid": "5460f3c5fefd4b73900010501a364024",
+      "css": "fileWord",
+      "code": 57961,
+      "src": "officeicons"
+    },
+    {
+      "uid": "6888c28f5df64f53996676467172a893",
+      "css": "filePowerPoint",
+      "code": 57962,
+      "src": "officeicons"
+    },
+    {
+      "uid": "def8eff6726340ef91ba288d6a67b580",
+      "css": "fileExcel",
+      "code": 57963,
+      "src": "officeicons"
+    },
+    {
+      "uid": "4102fda4169841fd8ca45eddedec847b",
+      "css": "fileImage",
+      "code": 57964,
+      "src": "officeicons"
+    },
+    {
+      "uid": "5ebe4efeada548ed88a27027c2c51579",
+      "css": "fileDocument",
+      "code": 57965,
+      "src": "officeicons"
+    },
+    {
+      "uid": "7c31bb2d55e74764b4b1fad6afeadadf",
+      "css": "listGroup2",
+      "code": 57966,
+      "src": "officeicons"
+    },
+    {
+      "uid": "c333e908880e40bf8a61ec77fff7a3a5",
+      "css": "copy",
+      "code": 57967,
+      "src": "officeicons"
+    },
+    {
+      "uid": "ef913fb5574e4de9b3584cb05fa8f3cf",
+      "css": "creditCardOutline",
+      "code": 57968,
+      "src": "officeicons"
+    },
+    {
+      "uid": "2df50c0802d2458fa574ef563f7e5b8f",
+      "css": "officeAssistant",
+      "code": 57969,
+      "src": "officeicons"
+    },
+    {
+      "uid": "304c5ce4c67b476abeb1db3ddf930713",
+      "css": "mailPublic",
+      "code": 57970,
+      "src": "officeicons"
+    },
+    {
+      "uid": "002c5ac655e145d9bfc1ab6c639e4a2e",
+      "css": "folderPublic",
+      "code": 57971,
+      "src": "officeicons"
+    },
+    {
+      "uid": "a8111e24f23a412bb85f906f0e603d92",
+      "css": "teamwork",
+      "code": 57972,
+      "src": "officeicons"
+    },
+    {
+      "uid": "18bc0e5419c24efaa4cc97e589eff4ee",
+      "css": "move",
+      "code": 57973,
+      "src": "officeicons"
+    },
+    {
+      "uid": "36307aad5c0244348dc886c01c563994",
+      "css": "classroom",
+      "code": 57974,
+      "src": "officeicons"
+    },
+    {
+      "uid": "1da6a887e3454845902b69019c6e0fa0",
+      "css": "menu2",
+      "code": 57975,
+      "src": "officeicons"
+    },
+    {
+      "uid": "8c2be9b70e324e96b3948ccb642c450e",
+      "css": "plus2",
+      "code": 57976,
+      "src": "officeicons"
+    },
+    {
+      "uid": "4105f113375d4ee7b58b3b0e1a849aa8",
+      "css": "tag",
+      "code": 57977,
+      "src": "officeicons"
+    },
+    {
+      "uid": "afb529b5b44943ddba9bc6fecad8a5c4",
+      "css": "arrowUp2",
+      "code": 57978,
+      "src": "officeicons"
+    },
+    {
+      "uid": "f23fffeb27fd4dbe8c97d0ab3aeb7cdc",
+      "css": "arrowDown2",
+      "code": 57979,
+      "src": "officeicons"
+    },
+    {
+      "uid": "ad378e8cca5c49c1a41bfb7bbd66f406",
+      "css": "circlePlus",
+      "code": 57980,
+      "src": "officeicons"
+    },
+    {
+      "uid": "2b98592538eb435bbc6e553306aa897e",
+      "css": "circleInfo",
+      "code": 57981,
+      "src": "officeicons"
+    },
+    {
+      "uid": "ccadf60c67a74f65858983a0c36483f1",
+      "css": "section",
+      "code": 57982,
+      "src": "officeicons"
+    },
+    {
+      "uid": "61d35b9c76c24d10bec634bfe0e06c32",
+      "css": "sections",
+      "code": 57983,
+      "src": "officeicons"
+    },
+    {
+      "uid": "4f7fc28de21347cd91f9d755499c34cc",
+      "css": "oneNoteEdu",
+      "code": 57984,
+      "src": "officeicons"
+    },
+    {
+      "uid": "a92a253de62c4dd79f9e22321b23dc84",
+      "css": "powerBi2",
+      "code": 57985,
+      "src": "officeicons"
+    },
+    {
+      "uid": "4dfe1c76c0d140178cf15c53866951db",
+      "css": "at",
+      "code": 57986,
+      "src": "officeicons"
+    },
+    {
+      "uid": "f6c9fa35a6d342dcac90484114c4e1fc",
+      "css": "arrowUpRight",
+      "code": 57987,
+      "src": "officeicons"
+    },
+    {
+      "uid": "bfe4352ed39e473cb6142984a8900181",
+      "css": "arrowDownRight",
+      "code": 57988,
+      "src": "officeicons"
+    },
+    {
+      "uid": "5e0dbb6b61564a2da7803e494ac8248f",
+      "css": "arrowDownLeft",
+      "code": 57989,
+      "src": "officeicons"
+    },
+    {
+      "uid": "a11a66f9c4cc4abab6c8277a021e30f5",
+      "css": "arrowUpLeft",
+      "code": 57990,
+      "src": "officeicons"
+    },
+    {
+      "uid": "fd98507abfb64f1eba34bc81a7fd0462",
+      "css": "bundle",
+      "code": 57991,
+      "src": "officeicons"
+    },
+    {
+      "uid": "60cd60715c674faba18f74f9367a701e",
+      "css": "pictureEdit",
+      "code": 57992,
+      "src": "officeicons"
+    },
+    {
+      "uid": "5a2a1fad84bd4f2ab6a3bcde92b2b21d",
+      "css": "protectionCenter",
+      "code": 57993,
+      "src": "officeicons"
+    },
+    {
+      "uid": "534ac207f7364d86ba41f6f4a0c0c407",
+      "css": "alert2",
+      "code": 57994,
+      "src": "officeicons"
+    }
+  ]
+}

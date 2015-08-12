@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head><link rel="stylesheet" type="text/css" href="description/Combined.css,0:HeaderFooterSprite,0:Header.NonMtps,1:LinkList;/Areas/Centers/Themes/StandardDevCenter/Content:0,/Areas/Epx/Themes/Base/Content:1&amp;amp;hashKey=C9973DA951AE6202C9B348379A1BE49D" xmlns="http://www.w3.org/1999/xhtml" />
+<link type="text/css" rel="stylesheet" xmlns="http://www.w3.org/1999/xhtml" />
+<link rel="stylesheet" type="text/css" href="description/04f9c26e-88fd-4dfd-b715-9733d17420b6Combined.css,0:HeaderFooterSprite,0:Footer.NonMtps,1:LinkList;/Areas/Centers/Themes/StandardDevCenter/Content:0,/Areas/Epx/Themes/Base/Content:1&amp;amp;hashKey=F576C687BC536B84D6E5B3246EE39B49" xmlns="http://www.w3.org/1999/xhtml" />
+<link type="text/css" rel="stylesheet" xmlns="http://www.w3.org/1999/xhtml" />
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Apps for Office: Use Microsoft Translator and ASP.NET in an app</title>
+        <link href="description/Galleries.css" type="text/css" rel="Stylesheet" /><link href="description/Layout.css" type="text/css" rel="Stylesheet" /><link href="description/Brand.css" type="text/css" rel="Stylesheet" />
+        <link href="description/iframedescription.css" rel="Stylesheet" type="text/css" />
+        <script src="description/offline.js" type="text/javascript"></script>
+        <style type="text/css">
+            #projectInfo {
+                overflow: auto;
+            }
+            #longDesc {
+                clear:both;
+                margin: 25px 0 10px 0;
+            }
+
+            #SampleIndexList{
+                margin-left: 15px;
+            }
+        </style>
+    </head>
+<body>
+    <div id="offlineDescription">
+        <h1>Apps for Office: Use Microsoft Translator and ASP.NET in an app</h1>
+        <br/>
+        <div id="projectInfo">
+            <div class="section">
+                    <div class="itemBarLong tagsContainer">
+                        <label for="Technologies">Technologies</label>
+                        <div id="Technologies">
+                            ASP.NET, Word 2013, Excel 2013, apps for Office
+                        </div>
+                    </div>
+                    <div class="itemBarLong tagsContainer">
+                        <label for="Topics">Topics</label>
+                        <div id="Topics">
+                            Web Services
+                        </div>
+                    </div>
+                <div class="itemBarLong">
+                    <label for="Platforms">Platforms</label>
+                    <div id="Platforms">
+                        Desktop, Web, Cloud
+                    </div>
+                </div>
+                <div class="itemBarLong">
+                    <label for="Requirements">Requirements</label>
+                    <div id="Requirements">
+                        
+                    </div>
+                </div>
+                <div class="itemBar">
+                    <label for="LastUpdated">Primary language</label>
+                    <div id="LastUpdated">en-US</div>
+                </div>
+                <div class="itemBar">
+                    <label for="LastUpdated">Updated</label>
+                    <div id="LastUpdated">5/8/2013</div>
+                </div>
+                <div class="itemBarLong">
+                    <label for="License">License</label>
+                    <div id="License">
+                        <a href="license.rtf">Apache License, Version 2.0</a></div>
+                </div>
+                <div class="itemBar">
+                    <div class="viewonlinecont">
+                        <a data-link="online" href="http://code.msdn.microsoft.com/Apps-for-Office-Use-fe2fcd95">View this sample online</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+                   
+<script type="text/javascript">
+    function initializePage() {
+        var otherTabClass = 'otherTab';
+        var hiddenPreClass = 'hidden';
+
+        var htmlDecode = function(encodedData) {
+            var decodedData = "";
+            if (encodedData) {
+                var div = document.createElement('div');
+                div.innerHTML = encodedData;
+                decodedData = div.firstChild.nodeValue.replace( /\\r\\n/ig , '\r\n');
+            }
+            return decodedData;
+        };
+                
+        Galleries.iterateElem(Galleries.findElem(null, 'div', 'scriptcode'), function (index, scriptBlock) {
+            var titleElem = Galleries.findElem(scriptBlock, 'div', 'title')[0];
+            var labelElems = Galleries.findElem(titleElem, 'span');
+            if (labelElems.length == 0) {
+                labelElems = titleElem;
+            }
+            var languageSpans = Galleries.findElem(scriptBlock, 'span', 'hidden');
+            var pres = Galleries.findElem(scriptBlock, 'pre');
+            if (languageSpans.length > 0 && pres.length > 1) {
+                Galleries.iterateElem(labelElems, function(index, elem) {
+                    var codePre = pres[index];
+                    var labelSpan = elem;
+                    var languageSpan = languageSpans[index];
+                            
+                    elem.code = codePre.innerHTML.replace( /(\r(\n)?)|((\r)?\n)/ig , '\\r\\n');
+                            
+                    codePre.className = codePre.className.replace(hiddenPreClass, '');
+                            
+                    languageSpan.parentNode.removeChild(languageSpan);
+                });
+
+                pres = Galleries.findElem(scriptBlock, 'pre');
+                Galleries.iterateElem(labelElems, function(index, elem) {
+                    var codePre = pres[index];
+                    var labelSpan = elem;
+                    if (index == 0) {
+                        scriptBlock.activeTab = 0;
+                    }
+                    else {
+                        labelSpan.className += otherTabClass;
+                        codePre.className += hiddenPreClass;
+                    }
+                    Galleries.attachEventHandler(labelSpan, 'click', function(e) {
+                        var activeTab = scriptBlock.activeTab;
+                        labelElems[activeTab].className += otherTabClass;
+                        pres[activeTab].className += hiddenPreClass;
+
+                        codePre.className = codePre.className.replace(hiddenPreClass, '');
+                        labelSpan.className = labelSpan.className.replace(otherTabClass, '');
+                        scriptBlock.activeTab = index;
+                    });
+                });
+
+                var preview = Galleries.findElem(scriptBlock, 'div', 'preview');
+                if (preview.length == 0) {
+                    preview.push(pres[pres.length - 1]);
+                }
+                Galleries.iterateElem(preview, function(index, elem) {
+                    elem.parentNode.removeChild(elem);
+                });
+
+                if (window.clipboardData && clipboardData.setData) {
+                    var copyLink = document.createElement('a');
+                    copyLink.href = 'javascript:void(0);';
+                    copyLink.className = 'copyCode';
+                    copyLink.innerHTML = 'Copy code';
+                    Galleries.attachEventHandler(copyLink, 'click', function (e) {
+                        clipboardData.setData("Text", htmlDecode(labelElems[scriptBlock.activeTab].code));
+                        return false;
+                    });
+                    scriptBlock.insertBefore(copyLink, scriptBlock.childNodes[0]);
+                }
+            }
+        });
+    }
+
+    Galleries.onWindowLoad(function(){
+        initializePage();
+    });
+
+</script>
+<div id="longDesc">
+    
+<div id="header">The app in the code sample translates the currently selected text in a Word or Excel file into the specified language using the Microsoft Translator service. The user selects a word in a document, selects the source language (the language
+ that the word is written in), the target language (the language to translate the word to), and then chooses the
+<span class="ui">Translate</span> button. The translation then appears in the UI of the app.</div>
+<div id="mainSection">
+<div id="mainBody">
+<div class="section" id="sectionSection0">
+<p>&nbsp;<img src="description/image.png" alt=""></p>
+<p>This sample demonstrates two specific techniques: how to add an ASP.NET web service in an app for Office and how to use the Microsoft Translator service. In particular, the ASP.NET web service stores the
+<span class="parameter">clientID</span> and <span class="parameter">clientSecret</span> parameters that the Microsoft Translator service requires to obtain an access token (which, in turn, is required for calling the Microsoft Translator service for a translation).
+ The Translate.asmx file in the code sample handles HTTP requests coming from the app (Home.js), sends the translation request to the Microsoft Translator service, and then returns the results to the app. The AdminAccess.cs file in the App_Code folder is used
+ to broker access tokens from the Microsoft Translator service.</p>
+</div>
+<h1 class="heading">Prerequisites</h1>
+<div class="section" id="sectionSection1">
+<p>This sample requires the following:</p>
+<ul>
+<li>
+<p>Word 2013 or Excel 2013</p>
+</li><li>
+<p>Visual Studio 2012 and Office Developer Tools for Visual Studio 2012</p>
+</li><li>
+<p>Internet Explorer 9 or Internet Explorer 10</p>
+</li></ul>
+</div>
+<h1 class="heading">Key components</h1>
+<div class="section" id="sectionSection2">
+<p>&nbsp;</p>
+<ul>
+<li>
+<p>CodeSample_TranslateASPNET project</p>
+<ul>
+<li>
+<p>CodeSample_TranslateASPNET.xml manifest file</p>
+</li></ul>
+</li><li>
+<p>CodeSample_TranslateASPNETWeb project</p>
+<ul>
+<li>
+<p>Home.html file, which contains the HTML control for the app's user interface.</p>
+</li><li>
+<p>Home.js file, which contains the event handler for the <span><span class="keyword">Office.initialize</span></span> event of the app, handles the button click event for the app's button, calls the ASP.NET web service, parses the response, and updates the
+ UI with the output.</p>
+</li><li>
+<p><strong>Translate.asmx</strong> file, which contains the web service on the server that handles the HTTP request from the app, stores the developer's client ID and client secret, and sends translation requests to the Microsoft Translator service.</p>
+</li><li>
+<p><strong>AdminAccess.cs</strong> code file, which contains the <span class="code">
+AdmAuthentication</span> and <span class="code">AdmAccess</span> classes that update the access token for the server to communicate with the Microsoft Translator service.</p>
+</li></ul>
+</li></ul>
+</div>
+<h1 class="heading">Configure the sample</h1>
+<div class="section" id="sectionSection3">
+<p>To configure the Translator app, get a client ID and client secret from the Azure DataMarket.</p>
+<p>For more information, see <a href="http://msdn.microsoft.com/en-us/library/hh454950.aspx" >
+Obtaining an access token</a>.</p>
+</div>
+<h1 class="heading">Build the sample</h1>
+<div class="section" id="sectionSection4">
+<p>Choose the F5 key to build and deploy the app.</p>
+</div>
+<h1 class="heading">Run and test the sample</h1>
+<div class="section" id="sectionSection5">
+<p>Choose the F5 key to build and deploy the app.</p>
+</div>
+<h1 class="heading">Troubleshooting</h1>
+<div class="section" id="sectionSection6">
+<p>If the app fails to install, ensure that the XML in your manifest file parses correctly.</p>
+<p>If the app raises a &quot;400: Bad request&quot; exception, ensure that you have replaced the constants in the Translate.asmx file with your own client ID and client secret values. Also, ensure that the HTTP request to the Microsoft Translator service has an Authorization
+ header with a value set to &quot;Bearer&quot;, a space, and a current access token for the Microsoft Translator service.</p>
+</div>
+<h1 class="heading">Change log</h1>
+<div class="section" id="sectionSection7">
+<p>First release: April 2013</p>
+</div>
+<h1 class="heading">Related content</h1>
+<div class="section" id="sectionSection8">
+<ul>
+<li>
+<p><a href="http://msdn.microsoft.com/en-us/library/hh454950.aspx" >Obtaining an access token</a></p>
+</li><li>
+<p><a href="http://msdn.microsoft.com/en-us/library/ff512421.aspx" >Translate Method</a></p>
+</li><li>
+<p><a href="http://msdn.microsoft.com/en-us/library/ms150046.aspx" >HttpUtility.ParseQueryString Method</a></p>
+</li><li>
+<p><a href="http://msdn.microsoft.com/en-us/library/ie/ms535874(v=vs.85).aspx" >XMLHttpRequest object (Internet Explorer)</a></p>
+</li><li>
+<p><a href="http://msdn.microsoft.com/en-us/library/office/apps/fp123513.aspx" >Reading and writing data to the active selection in a document or spreadsheet</a></p>
+</li></ul>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+
+</div>
+
+
+    </div>
+</body>
+</html>

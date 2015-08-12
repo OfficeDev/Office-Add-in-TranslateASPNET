@@ -1,0 +1,28 @@
+//
+// Office UI Fabric
+// --------------------------------------------------
+// Form field label styles
+
+
+// Standard
+.ms-Label {
+	.ms-font-s;
+	.ms-u-normalize;
+	box-sizing: border-box;
+	display: block;
+	padding-bottom: 7px;
+	padding-top: 7px;
+
+	// Required
+	&.is-required {
+		&:after {
+			content: ' *';
+			color: @ms-color-error;
+		}
+	}
+
+	// Disabled
+	&.is-disabled {
+		color: @ms-color-neutralTertiary;
+	}
+}

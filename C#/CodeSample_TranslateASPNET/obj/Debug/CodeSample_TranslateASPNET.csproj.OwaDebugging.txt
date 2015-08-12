@@ -1,0 +1,7 @@
+False
+9ad2eeba-0cdd-46fd-9565-7a817ab802f11be4ddbd-29cb-4f9e-a922-75e1dde4d24d
+{5aa511fc-3493-4ee8-bb92-b969c6efd871}{fa208354-949e-43bd-8110-3630c6d8216e}
+{fcb105fa-eaeb-40ba-9554-4c0f5c1962cc}
+1.0.0.0
+CodeSample_TranslateASPNET
+_layouts/15/

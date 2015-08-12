@@ -1,0 +1,1934 @@
+/**
+ * Fabric 0.10.3
+ * The front-end framework for building experiences for Office 365.
+ * Built on July 15, 2015
+ **/
+.ms-bgc-td,
+.ms-bgc-td-h:hover {
+  background-color: #005a9e;
+}
+
+.ms-bgc-tda,
+.ms-bgc-tda-h:hover {
+  background-color: #106ebe;
+}
+
+.ms-bgc-tdr,
+.ms-bgc-tdr-h:hover {
+  background-color: #004578;
+}
+
+.ms-bgc-tp,
+.ms-bgc-tp-h:hover {
+  background-color: #0078d7;
+}
+
+.ms-bgc-ts,
+.ms-bgc-ts-h:hover {
+  background-color: #2b88d8;
+}
+
+.ms-bgc-tt,
+.ms-bgc-tt-h:hover {
+  background-color: #71afe5;
+}
+
+.ms-bgc-tl,
+.ms-bgc-tl-h:hover {
+  background-color: #c7e0f4;
+}
+
+.ms-bgc-tlr,
+.ms-bgc-tlr-h:hover {
+  background-color: #deecf9;
+}
+
+.ms-bgc-tlra,
+.ms-bgc-tlra-h:hover {
+  background-color: #eff6fc;
+}
+
+.ms-bgc-b,
+.ms-bgc-b-h:hover {
+  background-color: #000000;
+}
+
+.ms-bgc-nd,
+.ms-bgc-nd-h:hover {
+  background-color: #212121;
+}
+
+.ms-bgc-np,
+.ms-bgc-np-h:hover {
+  background-color: #333333;
+}
+
+.ms-bgc-ns,
+.ms-bgc-ns-h:hover {
+  background-color: #666666;
+}
+
+.ms-bgc-nsa,
+.ms-bgc-nsa-h:hover {
+  background-color: #767676;
+}
+
+.ms-bgc-nt,
+.ms-bgc-nt-h:hover {
+  background-color: #a6a6a6;
+}
+
+.ms-bgc-nta,
+.ms-bgc-nta-h:hover {
+  background-color: #c8c8c8;
+}
+
+.ms-bgc-nl,
+.ms-bgc-nl-h:hover {
+  background-color: #eaeaea;
+}
+
+.ms-bgc-nlr,
+.ms-bgc-nlr-h:hover {
+  background-color: #f4f4f4;
+}
+
+.ms-bgc-nlra,
+.ms-bgc-nlra-h:hover {
+  background-color: #f8f8f8;
+}
+
+.ms-bgc-w,
+.ms-bgc-w-h:hover {
+  background-color: #ffffff;
+}
+
+.ms-bcl-td,
+.ms-bcl-td-h:hover {
+  border-color: #005a9e;
+}
+
+.ms-bcl-tda,
+.ms-bcl-tda-h:hover {
+  border-color: #106ebe;
+}
+
+.ms-bcl-tdr,
+.ms-bcl-tdr-h:hover {
+  border-color: #004578;
+}
+
+.ms-bcl-tp,
+.ms-bcl-tp-h:hover {
+  border-color: #0078d7;
+}
+
+.ms-bcl-ts,
+.ms-bcl-ts-h:hover {
+  border-color: #2b88d8;
+}
+
+.ms-bcl-tt,
+.ms-bcl-tt-h:hover {
+  border-color: #71afe5;
+}
+
+.ms-bcl-tl,
+.ms-bcl-tl-h:hover {
+  border-color: #c7e0f4;
+}
+
+.ms-bcl-tlr,
+.ms-bcl-tlr-h:hover {
+  border-color: #deecf9;
+}
+
+.ms-bcl-tlra,
+.ms-bcl-tlra-h:hover {
+  border-color: #eff6fc;
+}
+
+.ms-bcl-b,
+.ms-bcl-b-h:hover {
+  border-color: #000000;
+}
+
+.ms-bcl-nd,
+.ms-bcl-nd-h:hover {
+  border-color: #212121;
+}
+
+.ms-bcl-np,
+.ms-bcl-np-h:hover {
+  border-color: #333333;
+}
+
+.ms-bcl-ns,
+.ms-bcl-ns-h:hover {
+  border-color: #666666;
+}
+
+.ms-bcl-nsa,
+.ms-bcl-nsa-h:hover {
+  border-color: #767676;
+}
+
+.ms-bcl-nt,
+.ms-bcl-nt-h:hover {
+  border-color: #a6a6a6;
+}
+
+.ms-bcl-nta,
+.ms-bcl-nta-h:hover {
+  border-color: #c8c8c8;
+}
+
+.ms-bcl-nl,
+.ms-bcl-nl-h:hover {
+  border-color: #eaeaea;
+}
+
+.ms-bcl-nlr,
+.ms-bcl-nlr-h:hover {
+  border-color: #f4f4f4;
+}
+
+.ms-bcl-nlra,
+.ms-bcl-nlra-h:hover {
+  border-color: #f8f8f8;
+}
+
+.ms-bcl-w,
+.ms-bcl-w-h:hover {
+  border-color: #ffffff;
+}
+
+.ms-bcl-t-tp,
+.ms-bcl-t-tp-h:hover {
+  border-top-color: #0078d7;
+}
+
+.ms-fwt-l,
+.ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+.ms-fwt-sl,
+.ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+.ms-fwt-r,
+.ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+.ms-fwt-sb,
+.ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+.ms-fcl-tdr,
+.ms-fcl-tdr-h:hover {
+  color: #004578;
+}
+
+.ms-fcl-td,
+.ms-fcl-td-h:hover {
+  color: #005a9e;
+}
+
+.ms-fcl-tda,
+.ms-fcl-tda-h:hover {
+  color: #106ebe;
+}
+
+.ms-fcl-tp,
+.ms-fcl-tp-h:hover {
+  color: #0078d7;
+}
+
+.ms-fcl-ts,
+.ms-fcl-ts-h:hover {
+  color: #2b88d8;
+}
+
+.ms-fcl-tt,
+.ms-fcl-tt-h:hover {
+  color: #71afe5;
+}
+
+.ms-fcl-tl,
+.ms-fcl-tl-h:hover {
+  color: #c7e0f4;
+}
+
+.ms-fcl-tlr,
+.ms-fcl-tlr-h:hover {
+  color: #deecf9;
+}
+
+.ms-fcl-tlra,
+.ms-fcl-tlra-h:hover {
+  color: #eff6fc;
+}
+
+.ms-fcl-b,
+.ms-fcl-b-h:hover {
+  color: #000000;
+}
+
+.ms-fcl-nd,
+.ms-fcl-nd-h:hover {
+  color: #212121;
+}
+
+.ms-fcl-np,
+.ms-fcl-np-h:hover {
+  color: #333333;
+}
+
+.ms-fcl-ns,
+.ms-fcl-ns-h:hover {
+  color: #666666;
+}
+
+.ms-fcl-nsa,
+.ms-fcl-nsa-h:hover {
+  color: #767676;
+}
+
+.ms-fcl-nt,
+.ms-fcl-nt-h:hover {
+  color: #a6a6a6;
+}
+
+.ms-fcl-nta,
+.ms-fcl-nta-h:hover {
+  color: #c8c8c8;
+}
+
+.ms-fcl-nl,
+.ms-fcl-nl-h:hover {
+  color: #eaeaea;
+}
+
+.ms-fcl-nlr,
+.ms-fcl-nlr-h:hover {
+  color: #f4f4f4;
+}
+
+.ms-fcl-nlra,
+.ms-fcl-nlra-h:hover {
+  color: #f8f8f8;
+}
+
+.ms-fcl-w,
+.ms-fcl-w-h:hover {
+  color: #ffffff;
+}
+
+.ms-fcl-e,
+.ms-fcl-e-h:hover {
+  color: #a80f22;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: YuGothic, 'Meiryo UI', Meiryo, 'MS Pgothic', Osaka, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Malgun Gothic', Gulim, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Microsoft Yahei', Verdana, Simsun, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Microsoft Jhenghei', Pmingliu, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Nirmala UI', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Leelawadee UI Semilight', 'Kmer UI', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Leelawadee UI Semilight', 'Kmer UI', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Leelawadee UI Regular', 'Kmer UI', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Leelawadee UI Bold', 'Kmer UI', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light Arabic', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight Arabic', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular Arabic', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold Arabic', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light Cyrillic', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight Cyrillic', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular Cyrillic', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold Cyrillic', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light Cyrillic', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight Cyrillic', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular Cyrillic', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold Cyrillic', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light Cyrillic', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight Cyrillic', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular Cyrillic', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold Cyrillic', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light Greek', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight Greek', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular Greek', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold Greek', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light Hebrew', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight Hebrew', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular Hebrew', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold Hebrew', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light Vietnamese', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight Vietnamese', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular Vietnamese', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold Vietnamese', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='ja-JP'] .ms-font-mi,
+*[lang='ja-JP'] .ms-font-xs,
+*[lang='ja-JP'] .ms-font-s,
+*[lang='ja-JP'] .ms-font-s-plus,
+*[lang='ja-JP'] .ms-font-m,
+*[lang='ja-JP'] .ms-font-m-plus,
+*[lang='ja-JP'] .ms-font-l,
+*[lang='ja-JP'] .ms-font-xl,
+*[lang='ja-JP'] .ms-font-xxl,
+*[lang='ja-JP'] .ms-font-su,
+*[lang='ja-JP'] .ms-font-weight-light,
+*[lang='ja-JP'] .ms-font-weight-light-hover:hover,
+*[lang='ja-JP'] .ms-font-weight-semilight,
+*[lang='ja-JP'] .ms-font-weight-semilight-hover:hover,
+*[lang='ja-JP'] .ms-font-weight-regular,
+*[lang='ja-JP'] .ms-font-weight-regular-hover:hover,
+*[lang='ja-JP'] .ms-font-weight-semibold,
+*[lang='ja-JP'] .ms-font-weight-semibold-hover:hover {
+  font-family: YuGothic, 'Meiryo UI', Meiryo, 'MS Pgothic', Osaka, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: YuGothic, 'Meiryo UI', Meiryo, 'MS Pgothic', Osaka, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='ko-KR'] .ms-font-mi,
+*[lang='ko-KR'] .ms-font-xs,
+*[lang='ko-KR'] .ms-font-s,
+*[lang='ko-KR'] .ms-font-s-plus,
+*[lang='ko-KR'] .ms-font-m,
+*[lang='ko-KR'] .ms-font-m-plus,
+*[lang='ko-KR'] .ms-font-l,
+*[lang='ko-KR'] .ms-font-xl,
+*[lang='ko-KR'] .ms-font-xxl,
+*[lang='ko-KR'] .ms-font-su,
+*[lang='ko-KR'] .ms-font-weight-light,
+*[lang='ko-KR'] .ms-font-weight-light-hover:hover,
+*[lang='ko-KR'] .ms-font-weight-semilight,
+*[lang='ko-KR'] .ms-font-weight-semilight-hover:hover,
+*[lang='ko-KR'] .ms-font-weight-regular,
+*[lang='ko-KR'] .ms-font-weight-regular-hover:hover,
+*[lang='ko-KR'] .ms-font-weight-semibold,
+*[lang='ko-KR'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Malgun Gothic', Gulim, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Malgun Gothic', Gulim, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='ch-ZHS'] .ms-font-mi,
+*[lang='ch-ZHS'] .ms-font-xs,
+*[lang='ch-ZHS'] .ms-font-s,
+*[lang='ch-ZHS'] .ms-font-s-plus,
+*[lang='ch-ZHS'] .ms-font-m,
+*[lang='ch-ZHS'] .ms-font-m-plus,
+*[lang='ch-ZHS'] .ms-font-l,
+*[lang='ch-ZHS'] .ms-font-xl,
+*[lang='ch-ZHS'] .ms-font-xxl,
+*[lang='ch-ZHS'] .ms-font-su,
+*[lang='ch-ZHS'] .ms-font-weight-light,
+*[lang='ch-ZHS'] .ms-font-weight-light-hover:hover,
+*[lang='ch-ZHS'] .ms-font-weight-semilight,
+*[lang='ch-ZHS'] .ms-font-weight-semilight-hover:hover,
+*[lang='ch-ZHS'] .ms-font-weight-regular,
+*[lang='ch-ZHS'] .ms-font-weight-regular-hover:hover,
+*[lang='ch-ZHS'] .ms-font-weight-semibold,
+*[lang='ch-ZHS'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Microsoft Yahei', Verdana, Simsun, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Microsoft Yahei', Verdana, Simsun, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='ch-ZHT'] .ms-font-mi,
+*[lang='ch-ZHT'] .ms-font-xs,
+*[lang='ch-ZHT'] .ms-font-s,
+*[lang='ch-ZHT'] .ms-font-s-plus,
+*[lang='ch-ZHT'] .ms-font-m,
+*[lang='ch-ZHT'] .ms-font-m-plus,
+*[lang='ch-ZHT'] .ms-font-l,
+*[lang='ch-ZHT'] .ms-font-xl,
+*[lang='ch-ZHT'] .ms-font-xxl,
+*[lang='ch-ZHT'] .ms-font-su,
+*[lang='ch-ZHT'] .ms-font-weight-light,
+*[lang='ch-ZHT'] .ms-font-weight-light-hover:hover,
+*[lang='ch-ZHT'] .ms-font-weight-semilight,
+*[lang='ch-ZHT'] .ms-font-weight-semilight-hover:hover,
+*[lang='ch-ZHT'] .ms-font-weight-regular,
+*[lang='ch-ZHT'] .ms-font-weight-regular-hover:hover,
+*[lang='ch-ZHT'] .ms-font-weight-semibold,
+*[lang='ch-ZHT'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Microsoft Jhenghei', Pmingliu, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Microsoft Jhenghei', Pmingliu, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='hi-IN'] .ms-font-mi,
+*[lang='hi-IN'] .ms-font-xs,
+*[lang='hi-IN'] .ms-font-s,
+*[lang='hi-IN'] .ms-font-s-plus,
+*[lang='hi-IN'] .ms-font-m,
+*[lang='hi-IN'] .ms-font-m-plus,
+*[lang='hi-IN'] .ms-font-l,
+*[lang='hi-IN'] .ms-font-xl,
+*[lang='hi-IN'] .ms-font-xxl,
+*[lang='hi-IN'] .ms-font-su,
+*[lang='hi-IN'] .ms-font-weight-light,
+*[lang='hi-IN'] .ms-font-weight-light-hover:hover,
+*[lang='hi-IN'] .ms-font-weight-semilight,
+*[lang='hi-IN'] .ms-font-weight-semilight-hover:hover,
+*[lang='hi-IN'] .ms-font-weight-regular,
+*[lang='hi-IN'] .ms-font-weight-regular-hover:hover,
+*[lang='hi-IN'] .ms-font-weight-semibold,
+*[lang='hi-IN'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Nirmala UI', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Nirmala UI', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='th-TH'] .ms-font-xl,
+*[lang='th-TH'] .ms-font-xxl,
+*[lang='th-TH'] .ms-font-weight-light,
+*[lang='th-TH'] .ms-font-weight-light-hover:hover {
+  font-family: 'Leelawadee UI Semilight', 'Kmer UI', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='th-TH'] .ms-font-l,
+*[lang='th-TH'] .ms-font-su,
+*[lang='th-TH'] .ms-font-weight-semilight,
+*[lang='th-TH'] .ms-font-weight-semilight-hover:hover {
+  font-family: 'Leelawadee UI Semilight', 'Kmer UI', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='th-TH'] .ms-font-weight-regular,
+*[lang='th-TH'] .ms-font-weight-regular-hover:hover {
+  font-family: 'Leelawadee UI Regular', 'Kmer UI', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='th-TH'] .ms-font-mi,
+*[lang='th-TH'] .ms-font-weight-semibold,
+*[lang='th-TH'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Leelawadee UI Bold', 'Kmer UI', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Leelawadee UI Semilight', 'Kmer UI', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Leelawadee UI Semilight', 'Kmer UI', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Leelawadee UI Regular', 'Kmer UI', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Leelawadee UI Bold', 'Kmer UI', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='ar'] .ms-font-xl,
+*[lang='ar'] .ms-font-xxl,
+*[lang='ar'] .ms-font-weight-light,
+*[lang='ar'] .ms-font-weight-light-hover:hover {
+  font-family: 'Segoe UI Light Arabic', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='ar'] .ms-font-l,
+*[lang='ar'] .ms-font-su,
+*[lang='ar'] .ms-font-weight-semilight,
+*[lang='ar'] .ms-font-weight-semilight-hover:hover {
+  font-family: 'Segoe UI Semilight Arabic', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='ar'] .ms-font-weight-regular,
+*[lang='ar'] .ms-font-weight-regular-hover:hover {
+  font-family: 'Segoe UI Regular Arabic', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='ar'] .ms-font-mi,
+*[lang='ar'] .ms-font-weight-semibold,
+*[lang='ar'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Segoe UI Semibold Arabic', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light Arabic', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight Arabic', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular Arabic', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold Arabic', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='bg-BG'] .ms-font-xl,
+*[lang='bg-BG'] .ms-font-xxl,
+*[lang='bg-BG'] .ms-font-weight-light,
+*[lang='bg-BG'] .ms-font-weight-light-hover:hover {
+  font-family: 'Segoe UI Light Cyrillic', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='bg-BG'] .ms-font-l,
+*[lang='bg-BG'] .ms-font-su,
+*[lang='bg-BG'] .ms-font-weight-semilight,
+*[lang='bg-BG'] .ms-font-weight-semilight-hover:hover {
+  font-family: 'Segoe UI Semilight Cyrillic', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='bg-BG'] .ms-font-weight-regular,
+*[lang='bg-BG'] .ms-font-weight-regular-hover:hover {
+  font-family: 'Segoe UI Regular Cyrillic', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='bg-BG'] .ms-font-mi,
+*[lang='bg-BG'] .ms-font-weight-semibold,
+*[lang='bg-BG'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Segoe UI Semibold Cyrillic', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light Cyrillic', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight Cyrillic', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular Cyrillic', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold Cyrillic', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='ru-RU'] .ms-font-xl,
+*[lang='ru-RU'] .ms-font-xxl,
+*[lang='ru-RU'] .ms-font-weight-light,
+*[lang='ru-RU'] .ms-font-weight-light-hover:hover {
+  font-family: 'Segoe UI Light Cyrillic', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='ru-RU'] .ms-font-l,
+*[lang='ru-RU'] .ms-font-su,
+*[lang='ru-RU'] .ms-font-weight-semilight,
+*[lang='ru-RU'] .ms-font-weight-semilight-hover:hover {
+  font-family: 'Segoe UI Semilight Cyrillic', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='ru-RU'] .ms-font-weight-regular,
+*[lang='ru-RU'] .ms-font-weight-regular-hover:hover {
+  font-family: 'Segoe UI Regular Cyrillic', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='ru-RU'] .ms-font-mi,
+*[lang='ru-RU'] .ms-font-weight-semibold,
+*[lang='ru-RU'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Segoe UI Semibold Cyrillic', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light Cyrillic', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight Cyrillic', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular Cyrillic', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold Cyrillic', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='uk-UA'] .ms-font-xl,
+*[lang='uk-UA'] .ms-font-xxl,
+*[lang='uk-UA'] .ms-font-weight-light,
+*[lang='uk-UA'] .ms-font-weight-light-hover:hover {
+  font-family: 'Segoe UI Light Cyrillic', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='uk-UA'] .ms-font-l,
+*[lang='uk-UA'] .ms-font-su,
+*[lang='uk-UA'] .ms-font-weight-semilight,
+*[lang='uk-UA'] .ms-font-weight-semilight-hover:hover {
+  font-family: 'Segoe UI Semilight Cyrillic', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='uk-UA'] .ms-font-weight-regular,
+*[lang='uk-UA'] .ms-font-weight-regular-hover:hover {
+  font-family: 'Segoe UI Regular Cyrillic', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='uk-UA'] .ms-font-mi,
+*[lang='uk-UA'] .ms-font-weight-semibold,
+*[lang='uk-UA'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Segoe UI Semibold Cyrillic', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light Cyrillic', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight Cyrillic', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular Cyrillic', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold Cyrillic', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='cs-CZ'] .ms-font-xl,
+*[lang='cs-CZ'] .ms-font-xxl,
+*[lang='cs-CZ'] .ms-font-weight-light,
+*[lang='cs-CZ'] .ms-font-weight-light-hover:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='cs-CZ'] .ms-font-l,
+*[lang='cs-CZ'] .ms-font-su,
+*[lang='cs-CZ'] .ms-font-weight-semilight,
+*[lang='cs-CZ'] .ms-font-weight-semilight-hover:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='cs-CZ'] .ms-font-weight-regular,
+*[lang='cs-CZ'] .ms-font-weight-regular-hover:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='cs-CZ'] .ms-font-mi,
+*[lang='cs-CZ'] .ms-font-weight-semibold,
+*[lang='cs-CZ'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='et-EE'] .ms-font-xl,
+*[lang='et-EE'] .ms-font-xxl,
+*[lang='et-EE'] .ms-font-weight-light,
+*[lang='et-EE'] .ms-font-weight-light-hover:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='et-EE'] .ms-font-l,
+*[lang='et-EE'] .ms-font-su,
+*[lang='et-EE'] .ms-font-weight-semilight,
+*[lang='et-EE'] .ms-font-weight-semilight-hover:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='et-EE'] .ms-font-weight-regular,
+*[lang='et-EE'] .ms-font-weight-regular-hover:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='et-EE'] .ms-font-mi,
+*[lang='et-EE'] .ms-font-weight-semibold,
+*[lang='et-EE'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='hr-HR'] .ms-font-xl,
+*[lang='hr-HR'] .ms-font-xxl,
+*[lang='hr-HR'] .ms-font-weight-light,
+*[lang='hr-HR'] .ms-font-weight-light-hover:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='hr-HR'] .ms-font-l,
+*[lang='hr-HR'] .ms-font-su,
+*[lang='hr-HR'] .ms-font-weight-semilight,
+*[lang='hr-HR'] .ms-font-weight-semilight-hover:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='hr-HR'] .ms-font-weight-regular,
+*[lang='hr-HR'] .ms-font-weight-regular-hover:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='hr-HR'] .ms-font-mi,
+*[lang='hr-HR'] .ms-font-weight-semibold,
+*[lang='hr-HR'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='hu-HU'] .ms-font-xl,
+*[lang='hu-HU'] .ms-font-xxl,
+*[lang='hu-HU'] .ms-font-weight-light,
+*[lang='hu-HU'] .ms-font-weight-light-hover:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='hu-HU'] .ms-font-l,
+*[lang='hu-HU'] .ms-font-su,
+*[lang='hu-HU'] .ms-font-weight-semilight,
+*[lang='hu-HU'] .ms-font-weight-semilight-hover:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='hu-HU'] .ms-font-weight-regular,
+*[lang='hu-HU'] .ms-font-weight-regular-hover:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='hu-HU'] .ms-font-mi,
+*[lang='hu-HU'] .ms-font-weight-semibold,
+*[lang='hu-HU'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='lt-LT'] .ms-font-xl,
+*[lang='lt-LT'] .ms-font-xxl,
+*[lang='lt-LT'] .ms-font-weight-light,
+*[lang='lt-LT'] .ms-font-weight-light-hover:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='lt-LT'] .ms-font-l,
+*[lang='lt-LT'] .ms-font-su,
+*[lang='lt-LT'] .ms-font-weight-semilight,
+*[lang='lt-LT'] .ms-font-weight-semilight-hover:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='lt-LT'] .ms-font-weight-regular,
+*[lang='lt-LT'] .ms-font-weight-regular-hover:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='lt-LT'] .ms-font-mi,
+*[lang='lt-LT'] .ms-font-weight-semibold,
+*[lang='lt-LT'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='lv-LV'] .ms-font-xl,
+*[lang='lv-LV'] .ms-font-xxl,
+*[lang='lv-LV'] .ms-font-weight-light,
+*[lang='lv-LV'] .ms-font-weight-light-hover:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='lv-LV'] .ms-font-l,
+*[lang='lv-LV'] .ms-font-su,
+*[lang='lv-LV'] .ms-font-weight-semilight,
+*[lang='lv-LV'] .ms-font-weight-semilight-hover:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='lv-LV'] .ms-font-weight-regular,
+*[lang='lv-LV'] .ms-font-weight-regular-hover:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='lv-LV'] .ms-font-mi,
+*[lang='lv-LV'] .ms-font-weight-semibold,
+*[lang='lv-LV'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='pl-PL'] .ms-font-xl,
+*[lang='pl-PL'] .ms-font-xxl,
+*[lang='pl-PL'] .ms-font-weight-light,
+*[lang='pl-PL'] .ms-font-weight-light-hover:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='pl-PL'] .ms-font-l,
+*[lang='pl-PL'] .ms-font-su,
+*[lang='pl-PL'] .ms-font-weight-semilight,
+*[lang='pl-PL'] .ms-font-weight-semilight-hover:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='pl-PL'] .ms-font-weight-regular,
+*[lang='pl-PL'] .ms-font-weight-regular-hover:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='pl-PL'] .ms-font-mi,
+*[lang='pl-PL'] .ms-font-weight-semibold,
+*[lang='pl-PL'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='lt-sr-SP'] .ms-font-xl,
+*[lang='lt-sr-SP'] .ms-font-xxl,
+*[lang='lt-sr-SP'] .ms-font-weight-light,
+*[lang='lt-sr-SP'] .ms-font-weight-light-hover:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='lt-sr-SP'] .ms-font-l,
+*[lang='lt-sr-SP'] .ms-font-su,
+*[lang='lt-sr-SP'] .ms-font-weight-semilight,
+*[lang='lt-sr-SP'] .ms-font-weight-semilight-hover:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='lt-sr-SP'] .ms-font-weight-regular,
+*[lang='lt-sr-SP'] .ms-font-weight-regular-hover:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='lt-sr-SP'] .ms-font-mi,
+*[lang='lt-sr-SP'] .ms-font-weight-semibold,
+*[lang='lt-sr-SP'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='tr-TR'] .ms-font-xl,
+*[lang='tr-TR'] .ms-font-xxl,
+*[lang='tr-TR'] .ms-font-weight-light,
+*[lang='tr-TR'] .ms-font-weight-light-hover:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='tr-TR'] .ms-font-l,
+*[lang='tr-TR'] .ms-font-su,
+*[lang='tr-TR'] .ms-font-weight-semilight,
+*[lang='tr-TR'] .ms-font-weight-semilight-hover:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='tr-TR'] .ms-font-weight-regular,
+*[lang='tr-TR'] .ms-font-weight-regular-hover:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='tr-TR'] .ms-font-mi,
+*[lang='tr-TR'] .ms-font-weight-semibold,
+*[lang='tr-TR'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='sk-SK'] .ms-font-xl,
+*[lang='sk-SK'] .ms-font-xxl,
+*[lang='sk-SK'] .ms-font-weight-light,
+*[lang='sk-SK'] .ms-font-weight-light-hover:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='sk-SK'] .ms-font-l,
+*[lang='sk-SK'] .ms-font-su,
+*[lang='sk-SK'] .ms-font-weight-semilight,
+*[lang='sk-SK'] .ms-font-weight-semilight-hover:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='sk-SK'] .ms-font-weight-regular,
+*[lang='sk-SK'] .ms-font-weight-regular-hover:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='sk-SK'] .ms-font-mi,
+*[lang='sk-SK'] .ms-font-weight-semibold,
+*[lang='sk-SK'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='kk-KZ'] .ms-font-xl,
+*[lang='kk-KZ'] .ms-font-xxl,
+*[lang='kk-KZ'] .ms-font-weight-light,
+*[lang='kk-KZ'] .ms-font-weight-light-hover:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='kk-KZ'] .ms-font-l,
+*[lang='kk-KZ'] .ms-font-su,
+*[lang='kk-KZ'] .ms-font-weight-semilight,
+*[lang='kk-KZ'] .ms-font-weight-semilight-hover:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='kk-KZ'] .ms-font-weight-regular,
+*[lang='kk-KZ'] .ms-font-weight-regular-hover:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='kk-KZ'] .ms-font-mi,
+*[lang='kk-KZ'] .ms-font-weight-semibold,
+*[lang='kk-KZ'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light EastEuropean', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight EastEuropean', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular EastEuropean', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold EastEuropean', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='el-GR'] .ms-font-xl,
+*[lang='el-GR'] .ms-font-xxl,
+*[lang='el-GR'] .ms-font-weight-light,
+*[lang='el-GR'] .ms-font-weight-light-hover:hover {
+  font-family: 'Segoe UI Light Greek', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='el-GR'] .ms-font-l,
+*[lang='el-GR'] .ms-font-su,
+*[lang='el-GR'] .ms-font-weight-semilight,
+*[lang='el-GR'] .ms-font-weight-semilight-hover:hover {
+  font-family: 'Segoe UI Semilight Greek', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='el-GR'] .ms-font-weight-regular,
+*[lang='el-GR'] .ms-font-weight-regular-hover:hover {
+  font-family: 'Segoe UI Regular Greek', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='el-GR'] .ms-font-mi,
+*[lang='el-GR'] .ms-font-weight-semibold,
+*[lang='el-GR'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Segoe UI Semibold Greek', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light Greek', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight Greek', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular Greek', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold Greek', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='he-IL'] .ms-font-xl,
+*[lang='he-IL'] .ms-font-xxl,
+*[lang='he-IL'] .ms-font-weight-light,
+*[lang='he-IL'] .ms-font-weight-light-hover:hover {
+  font-family: 'Segoe UI Light Hebrew', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='he-IL'] .ms-font-l,
+*[lang='he-IL'] .ms-font-su,
+*[lang='he-IL'] .ms-font-weight-semilight,
+*[lang='he-IL'] .ms-font-weight-semilight-hover:hover {
+  font-family: 'Segoe UI Semilight Hebrew', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='he-IL'] .ms-font-weight-regular,
+*[lang='he-IL'] .ms-font-weight-regular-hover:hover {
+  font-family: 'Segoe UI Regular Hebrew', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='he-IL'] .ms-font-mi,
+*[lang='he-IL'] .ms-font-weight-semibold,
+*[lang='he-IL'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Segoe UI Semibold Hebrew', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light Hebrew', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight Hebrew', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular Hebrew', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold Hebrew', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='vi-VN'] .ms-font-xl,
+*[lang='vi-VN'] .ms-font-xxl,
+*[lang='vi-VN'] .ms-font-weight-light,
+*[lang='vi-VN'] .ms-font-weight-light-hover:hover {
+  font-family: 'Segoe UI Light Vietnamese', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='vi-VN'] .ms-font-l,
+*[lang='vi-VN'] .ms-font-su,
+*[lang='vi-VN'] .ms-font-weight-semilight,
+*[lang='vi-VN'] .ms-font-weight-semilight-hover:hover {
+  font-family: 'Segoe UI Semilight Vietnamese', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='vi-VN'] .ms-font-weight-regular,
+*[lang='vi-VN'] .ms-font-weight-regular-hover:hover {
+  font-family: 'Segoe UI Regular Vietnamese', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='vi-VN'] .ms-font-mi,
+*[lang='vi-VN'] .ms-font-weight-semibold,
+*[lang='vi-VN'] .ms-font-weight-semibold-hover:hover {
+  font-family: 'Segoe UI Semibold Vietnamese', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-l,
+*[lang='@ms-{lang-code}'] .ms-fwt-l-h:hover {
+  font-family: 'Segoe UI Light Vietnamese', 'Segoe UI Light WestEuropean', 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sl,
+*[lang='@ms-{lang-code}'] .ms-fwt-sl-h:hover {
+  font-family: 'Segoe UI Semilight Vietnamese', 'Segoe UI Semilight WestEuropean', 'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-r,
+*[lang='@ms-{lang-code}'] .ms-fwt-r-h:hover {
+  font-family: 'Segoe UI Regular Vietnamese', 'Segoe UI Regular WestEuropean', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+*[lang='@ms-{lang-code}'] .ms-fwt-sb,
+*[lang='@ms-{lang-code}'] .ms-fwt-sb-h:hover {
+  font-family: 'Segoe UI Semibold Vietnamese', 'Segoe UI Semibold WestEuropean', 'Segoe UI Semibold', 'Segoe WP Semibold', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+
+.ms-fcl-oa1,
+.ms-fcl-oa1-h:hover {
+  color: #ffffff;
+}
+
+.ms-fcl-oa2,
+.ms-fcl-oa2-h:hover {
+  color: #000000;
+}
+
+.ms-fcl-oa3,
+.ms-fcl-oa3-h:hover {
+  color: #e7e6e5;
+}
+
+.ms-fcl-oa4,
+.ms-fcl-oa4-h:hover {
+  color: #44546a;
+}
+
+.ms-fcl-oa5,
+.ms-fcl-oa5-h:hover {
+  color: #5b9bd5;
+}
+
+.ms-fcl-oa6,
+.ms-fcl-oa6-h:hover {
+  color: #ed7d31;
+}
+
+.ms-fcl-oa7,
+.ms-fcl-oa7-h:hover {
+  color: #a5a5a5;
+}
+
+.ms-fcl-oa8,
+.ms-fcl-oa8-h:hover {
+  color: #ffc001;
+}
+
+.ms-fcl-oa9,
+.ms-fcl-oa9-h:hover {
+  color: #4472c4;
+}
+
+.ms-fcl-oa10,
+.ms-fcl-oa10-h:hover {
+  color: #70ad47;
+}
+
+.ms-bgc-oa1,
+.ms-bgc-oa1-h:hover {
+  background-color: #ffffff;
+}
+
+.ms-bgc-oa2,
+.ms-bgc-oa2-h:hover {
+  background-color: #000000;
+}
+
+.ms-bgc-oa3,
+.ms-bgc-oa3-h:hover {
+  background-color: #e7e6e5;
+}
+
+.ms-bgc-oa4,
+.ms-bgc-oa4-h:hover {
+  background-color: #44546a;
+}
+
+.ms-bgc-oa5,
+.ms-bgc-oa5-h:hover {
+  background-color: #5b9bd5;
+}
+
+.ms-bgc-oa6,
+.ms-bgc-oa6-h:hover {
+  background-color: #ed7d31;
+}
+
+.ms-bgc-oa7,
+.ms-bgc-oa7-h:hover {
+  background-color: #a5a5a5;
+}
+
+.ms-bgc-oa8,
+.ms-bgc-oa8-h:hover {
+  background-color: #ffc001;
+}
+
+.ms-bgc-oa9,
+.ms-bgc-oa9-h:hover {
+  background-color: #4472c4;
+}
+
+.ms-bgc-oa10,
+.ms-bgc-oa10-h:hover {
+  background-color: #70ad47;
+}
+
+.ms-bcl-oa1,
+.ms-bcl-oa1-h:hover {
+  border-color: #ffffff;
+}
+
+.ms-bcl-oa2,
+.ms-bcl-oa2-h:hover {
+  border-color: #000000;
+}
+
+.ms-bcl-oa3,
+.ms-bcl-oa3-h:hover {
+  border-color: #e7e6e5;
+}
+
+.ms-bcl-oa4,
+.ms-bcl-oa4-h:hover {
+  border-color: #44546a;
+}
+
+.ms-bcl-oa5,
+.ms-bcl-oa5-h:hover {
+  border-color: #5b9bd5;
+}
+
+.ms-bcl-oa6,
+.ms-bcl-oa6-h:hover {
+  border-color: #ed7d31;
+}
+
+.ms-bcl-oa7,
+.ms-bcl-oa7-h:hover {
+  border-color: #a5a5a5;
+}
+
+.ms-bcl-oa8,
+.ms-bcl-oa8-h:hover {
+  border-color: #ffc001;
+}
+
+.ms-bcl-oa9,
+.ms-bcl-oa9-h:hover {
+  border-color: #4472c4;
+}
+
+.ms-bcl-oa10,
+.ms-bcl-oa10-h:hover {
+  border-color: #70ad47;
+}
