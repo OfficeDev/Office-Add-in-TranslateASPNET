@@ -1,2 +1,0 @@
-bin\Debug\OfficeAppManifests\CodeSample_TranslateASPNETManifest.xml
-C:\Users\johnau\Surge\Translator\C#\CodeSample_TranslateASPNET\bin\Debug\CodeSample_TranslateASPNET.debugapp
