@@ -69,7 +69,6 @@
     <Content Include="App\Translate.asmx" />
     <Content Include="Content\fabric.components.min.css" />
     <Content Include="Content\fabric.min.css" />
-    <Content Include="Content\Office.css" />
     <Content Include="Images\Close.png" />
     <Content Include="packages.config" />
     <None Include="Scripts\Office\1.0\outlook-15.debug-vsdoc.js" />
