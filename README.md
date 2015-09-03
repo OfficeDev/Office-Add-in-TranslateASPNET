@@ -1,4 +1,4 @@
-# Office Add-in - Use Bing Translator and ASP.NET in an app
+# Office Add-in - Use Bing Translator and ASP.NET in an add-in
 
 **Table of contents**
 
