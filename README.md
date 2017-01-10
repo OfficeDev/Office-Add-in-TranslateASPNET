@@ -56,14 +56,15 @@ The Translate.asmx file in the code sample handles HTTP requests coming from the
 2.	Replace the default values for **clientID** and **clientSecret** in the [Translate.asmx.cs](https://github.com/OfficeDev/Office-Add-in-TranslateASPNET/blob/master/C%23/CodeSample_TranslateASPNETWeb/App/Translate.asmx.cs) file with your own values.
 3.	Open the CodeSample_TranslateASPNET.sln file in Visual Studio.
 4.	Set the **Start Document** property of the CodeSample_TranslateASPNETWeb project to either **New Excel Workbook** or **New Word Document**. 
-5.	Press F5 to build and deploy the sample add-in and open it in Excel or Word.
+5.	Press F5 to build and deploy the sample add-in Excel or Word.
+6.	On the **Home** ribbon, click **Open** in the **Translator** group.
 6.	Type text in a cell of the new Excel workbook or in the new Word document. Select the text.
 7.	Select your **From** and **To** languages, and then press the **Translate the selected word** button.
 
 <a name="troubleshooting"></a>
 ## Troubleshooting
 
-- If the add-in does not appear in the task pane, Choose **Insert > My Add-ins >  CodeSample_TranslateASPNET**.
+- If the **Translator** group does not appear on the **Home** ribbon, choose **Insert > My Add-ins >  CodeSample_TranslateASPNET**.
 - If the app raises a "400: Bad request" exception, ensure that you have replaced the constants in the **Translate.asmx.cs** file with your own client ID and client secret values. Also, ensure that the HTTP request to the Microsoft Translator service has an Authorization header with a value set to **Bearer**, a space, and a current access token for the Microsoft Translator service.
 
 <a name="questions"></a>
