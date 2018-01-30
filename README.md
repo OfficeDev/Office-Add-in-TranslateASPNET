@@ -12,7 +12,7 @@
 * [Additional resources](#additional-resources)
 
 <a name="summary"></a>
-##Summary
+## Summary
 
 This sample translates the currently selected text in a Word or Excel file into the specified language using the Microsoft Translator service.
 
@@ -21,7 +21,7 @@ This add-in gets the current selection from the Office document and then sends i
 ![Screenshot of running sample](TranslatorAppCodeSample.PNG)
 
 <a name="prerequisites"></a>
-##Prerequisites
+## Prerequisites
 This sample requires the following:  
 
   - Visual Studio 2013 with Update 5 or Visual Studio 2015.
@@ -32,7 +32,7 @@ This sample requires the following:
   - Familiarity with JavaScript programming and web services.
 
 <a name="components"></a>
-##Key components
+## Key components
 
 * CodeSample_TranslateASPNET project
 	* [CodeSample_TranslateASPNET.xml](https://github.com/OfficeDev/Office-Add-in-TranslateASPNET/blob/master/C%23/CodeSample_TranslateASPNET/CodeSample_TranslateASPNETManifest/CodeSample_TranslateASPNET.xml) manifest file
@@ -43,14 +43,14 @@ This sample requires the following:
 	* [AdminAccess.cs](). It contains the **AdmAuthentication** and **AdmAccess** classes that update the access token for the server to communicate with the Microsoft Translator service.
 
 <a name="codedescription"></a>
-##Description of the code
+## Description of the code
 
 The sample demonstrates two specific techniques: how to add an ASP.NET web service to an Office Add-in and how to use the Microsoft Translator service. The ASP.NET web service in the solution stores the clientID and clientSecret parameters that the Microsoft Translator service requires to obtain an access token (which, in turn, is required for calling the Microsoft Translator service for a translation).
 
 The Translate.asmx file in the code sample handles HTTP requests coming from the add-in, sends the translation request to the Microsoft Translator service, and then returns the results to the add-in. The AdminAccess.cs file in the App_Code folder handles the access tokens returned from the Microsoft Translator service.
 
 <a name="build"></a>
-##Build and debug
+## Build and debug
 
 1.	To configure the Translator app, get a client ID and client secret from the [Azure DataMarket](https://datamarket.azure.com/dataset/1899a118-d202-492c-aa16-ba21c33c06cb). For more information, see [Obtaining an Access Token](http://msdn.microsoft.com/library/hh454950.aspx).
 2.	Replace the default values for **clientID** and **clientSecret** in the [Translate.asmx.cs](https://github.com/OfficeDev/Office-Add-in-TranslateASPNET/blob/master/C%23/CodeSample_TranslateASPNETWeb/App/Translate.asmx.cs) file with your own values.
