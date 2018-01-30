@@ -22,6 +22,7 @@ This add-in gets the current selection from the Office document and then sends i
 
 <a name="prerequisites"></a>
 ## Prerequisites
+
 This sample requires the following:  
 
   - Visual Studio 2013 with Update 5 or Visual Studio 2015.
