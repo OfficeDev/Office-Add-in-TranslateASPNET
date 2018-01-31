@@ -1,0 +1,22 @@
+### YamlMime:Sample
+sample:
+- name: Office Add-in that uses Bing Translator and ASP.NET
+  path: ''
+  description: This sample translates the currently selected text in a Word or Excel file into the specified language using the Microsoft Translator service.
+  readme: ''
+  generateZip: FALSE
+  isLive: TRUE
+  technologies:
+  - Office Add-in
+  azureDeploy: ''
+  author: JohnAustin
+  platforms: []
+  languages:
+  - ASP.NET
+  - C#
+  - JavaScript
+  extensions:
+    products:
+    - Word
+    - Excel
+    scenarios: []
