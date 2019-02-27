@@ -1,3 +1,19 @@
+---
+topic: sample
+products:
+- Word
+- Excel
+- Office 365
+languages:
+- JavaScript
+- ASP.NET
+- C#
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 8/12/2015 10:00:58 AM
+---
 # Office Add-in - Use Bing Translator and ASP.NET in an add-in
 
 **Table of contents**
